@@ -1,0 +1,39 @@
+{
+  "id": "subaru-impreza-2012",
+  "title": "2012 Subaru Impreza",
+  "category": "Cars",
+  "status": "Daily Driver",
+  "car": "Subaru Impreza",
+  "year": "2012",
+  "location": "Japan",
+  "summary": "A simple, reliable street build balancing practical driving, responsive handling and a clean cosmetic setup.",
+  "specs": {
+    "engine": "2.0L boxer",
+    "transmission": "6-speed semi-automatic",
+    "drivetrain": "AWD",
+    "suspension": "OEM + mild alignment",
+    "exterior": "White",
+    "ownership": "Oct. 2012 ~"
+  },
+  "mods": [
+    "Lightweight battery and interior refresh",
+    "Wheel alignment adjusted for sharper turn-in",
+    "Simple cosmetic upgrades and daily-use improvements",
+    "Routine maintenance focused on reliability and drivability"
+  ],
+  "tools": "Torque wrench, jack stands, basic socket set, impact driver, cleaning kit, multimeter",
+  "challenges": "The goal was not a full race build; it was to keep a practical platform reliable, engaging and comfortable for daily use while preserving the character of the chassis.",
+  "logs": [
+    {
+      "title": "Initial ownership",
+      "date": "2012",
+      "detail": "A compact, stock setup that prioritized consistent reliability and confidence in all conditions."
+    },
+    {
+      "title": "Practical upgrades",
+      "date": "2024",
+      "detail": "A small set of improvements focused on alignment, cleanliness and the feel of the car without overcomplicating the platform."
+    }
+  ],
+  "thumbnail": "Current.webp"
+}
