@@ -1,0 +1,2 @@
+2025_urban-climb/info.txt
+2026_dsr/info.txt

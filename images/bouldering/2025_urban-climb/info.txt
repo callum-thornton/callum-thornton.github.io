@@ -1,0 +1,14 @@
+{
+  "id": "urban-climb-2025",
+  "name": "Urban Climb Session",
+  "category": "Bouldering",
+  "grade": "V3",
+  "location": "Adelaide, Australia",
+  "date": "Oct. 2025",
+  "style": "After-work rooftop bouldering",
+  "summary": "A quick, powerful session focused on movement efficiency, tension and footwork under fatigue.",
+  "crux": "A fast left-foot match and a confident heel hook to keep the hips close while extending through the final move.",
+  "beta": "The key was reducing unnecessary shoulder drift and committing to a higher toe point early. Small adjustments in body position made the difference between a hard fall and a clean finish.",
+  "gear": "La Sportiva Solution, 9mm chalk bag, 60m approach shoes, quickdraws, mini brush",
+  "thumbnail": "Overhang_wall.webp"
+}

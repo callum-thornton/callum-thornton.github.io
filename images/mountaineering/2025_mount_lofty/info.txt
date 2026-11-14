@@ -1,0 +1,15 @@
+{
+  "id": "mount-lofty-2025",
+  "name": "Mount Lofty",
+  "category": "Mountaineering",
+  "grade": "Scramble",
+  "elevation": "727 m",
+  "location": "Adelaide, Australia",
+  "date": "Jan. 2025",
+  "style": "High-country walk",
+  "summary": "A strong valley-to-ridge session combining open terrain, a clear summit path and a relaxed pacing strategy.",
+  "crux": "Smooth gradients and a brief rocky scramble demand clean route reading rather than high-risk technical climbing.",
+  "beta": "This one was about efficient movement and managing effort across a longer route. The final push benefited from a simple, sustainable rhythm and a clear line of sight.",
+  "gear": "Light pack, trail shoes, sunscreen, windproof layer, trekking poles",
+  "thumbnail": "Summit.webp"
+}

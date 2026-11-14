@@ -1,0 +1,16 @@
+{
+  "id": "akanagi-san-2025",
+  "name": "赤薙山 (Akanagi-san)",
+  "lang": "ja",
+  "category": "Mountaineering",
+  "grade": "Day hike",
+  "elevation": "1,445 m",
+  "location": "Tochigi, Japan",
+  "date": "Feb. 2025",
+  "style": "Alpine day traverse",
+  "summary": "A crisp early-season ridge walk with a steady climb, open views and enough technical terrain to stay engaged.",
+  "crux": "An exposed ridge traverse with loose scree sections and a careful line choice through the steeper terrain.",
+  "beta": "The summit approached best in a measured rhythm: steady uphill movement, frequent route checks, and conservative pacing from the first switchback to the last rock band.",
+  "gear": "Trail boots, trekking poles, shell layer, 1L hydration, map, headlamp",
+  "thumbnail": "Summit.webp"
+}

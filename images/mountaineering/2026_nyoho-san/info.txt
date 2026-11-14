@@ -1,0 +1,16 @@
+{
+  "id": "nyoho-san-2026",
+  "name": "女峰山 (Nyohō-san)",
+  "lang": "ja",
+  "category": "Mountaineering",
+  "grade": "Steady summit push",
+  "elevation": "2,483 m",
+  "location": "Tochigi, Japan",
+  "date": "Feb. 2026",
+  "style": "Long alpine day",
+  "summary": "A bigger mountain day with sustained effort, extended snowline exposure and strong alpine atmosphere.",
+  "crux": "The upper approach is a long, sustained climb where pacing matters more than brief bursts of speed.",
+  "beta": "This route was best managed with efficient downhill recovery, careful hydration and a stable rhythm through the exposed ridge sections.",
+  "gear": "Insulated layer, glacier glasses, trekking poles, microspikes, emergency ration",
+  "thumbnail": "Summit.webp"
+}

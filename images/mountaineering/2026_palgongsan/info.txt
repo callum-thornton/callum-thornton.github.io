@@ -1,0 +1,16 @@
+{
+  "id": "palgongsan-2026",
+  "name": "팔공산 (Palgongsan)",
+  "lang": "ko",
+  "category": "Mountaineering",
+  "grade": "Scenic ridge climb",
+  "elevation": "1,193 m",
+  "location": "Daegu, South Korea",
+  "date": "Nov. 2026",
+  "style": "Summit circuit",
+  "summary": "A scenic ridge circuit with strong views, a healthy climb and a satisfying recovery pace for a long day outdoors.",
+  "crux": "The final ridge section demands focus on footwork and route choice while staying efficient through a broad but exposed traverse.",
+  "beta": "The route rewards patience more than intensity. The climb is steady, but the line of travel and pace make the difference between a smooth summit and a rough push.",
+  "gear": "Trail boots, shell jacket, extra layer, hiking poles, water bottle",
+  "thumbnail": "Summit.webp"
+}

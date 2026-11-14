@@ -1,0 +1,16 @@
+{
+  "id": "iimori-san-2026",
+  "name": "飯盛山 (Iimori-san)",
+  "lang": "ja",
+  "category": "Mountaineering",
+  "grade": "Granular ascent",
+  "elevation": "1,627 m",
+  "location": "Yamanashi, Japan",
+  "date": "Jan. 2026",
+  "style": "Rocky ridge route",
+  "summary": "A route defined by uneven terrain, changing weather and a strong final push through exposed rocky ground.",
+  "crux": "A narrow ledge section and short rocky scramble demanded careful foot placement and a calm, focused tempo.",
+  "beta": "Route awareness mattered as much as fitness here. Small adjustments to foot placement kept momentum steady without rushing the more exposed sections.",
+  "gear": "Trail boots, mountaineering hat, wind shell, trekking poles, GPS",
+  "thumbnail": "Summit.webp"
+}

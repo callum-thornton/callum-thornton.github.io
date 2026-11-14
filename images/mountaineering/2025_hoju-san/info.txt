@@ -1,0 +1,16 @@
+{
+  "id": "hoju-san-2025",
+  "name": "宝珠山 (Hōju-san)",
+  "lang": "ja",
+  "category": "Mountaineering",
+  "grade": "Day climb",
+  "elevation": "1,345 m",
+  "location": "Yamagata, Japan",
+  "date": "Mar. 2025",
+  "style": "Forest ascent",
+  "summary": "A compact but rewarding hill climb through shaded forest and across open ledges with a memorable final push.",
+  "crux": "The climb becomes noticeably steeper near the upper shoulder where traction and pace matter more than sheer effort.",
+  "beta": "The route was best handled by keeping cadence light and watching for roots and wet stone. A steady effort through the forest made the final section feel controlled rather than forced.",
+  "gear": "Trail runners, fleece midlayer, hydration pack, trekking poles, first-aid kit",
+  "thumbnail": "Summit.webp"
+}
