@@ -1,7 +1,0 @@
-2025_akanagi-san/info.txt
-2025_hoju-san/info.txt
-2025_mount_lofty/info.txt
-2026_akagi-san/info.txt
-2026_iimori-san/info.txt
-2026_nyoho-san/info.txt
-2026_palgongsan/info.txt
