@@ -1,6 +1,6 @@
 {
   "id": "dsr-2026",
-  "name": "DSR Circuit",
+  "name": "Dongseongro Climbing Gym",
   "category": "Bouldering",
   "grade": "V4",
   "location": "Daegu, South Korea",

@@ -1,6 +1,6 @@
 {
   "id": "urban-climb-2025",
-  "name": "Urban Climb Session",
+  "name": "Urban Climb",
   "category": "Bouldering",
   "grade": "V3",
   "location": "Adelaide, Australia",
