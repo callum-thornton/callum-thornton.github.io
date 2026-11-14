@@ -1,0 +1,2202 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callum Thornton</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                        mono: ['JetBrains Mono', 'Fira Code', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    
+    <style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .dark ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(156, 163, 175, 0.5);
+            border-radius: 4px;
+        }
+        html [lang="ja"] {
+            font-family: Inter, "Noto Sans JP", sans-serif;
+        }
+        html [lang="ko"] {
+            font-family: Inter, "Noto Sans KR", sans-serif;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(107, 114, 128, 0.8);
+        }
+    </style>
+    <noscript>
+        <style>
+            body {
+                box-sizing: border-box;
+                min-height: 100vh;
+                margin: 0;
+                padding: 48px 20px;
+                background: #f8fafc;
+                color: #1e293b;
+                font-family: Inter, Arial, sans-serif;
+                line-height: 1.6;
+            }
+            body > :not(.no-js-fallback) {
+                display: none !important;
+            }
+            body > .no-js-fallback {
+                display: block;
+                max-width: 680px;
+                margin: 0 auto;
+            }
+            .no-js-fallback * {
+                box-sizing: border-box;
+            }
+            .no-js-card {
+                padding: 32px;
+                border: 1px solid #e2e8f0;
+                border-radius: 20px;
+                background: #fff;
+                box-shadow: 0 12px 32px rgba(15, 23, 42, .07);
+            }
+            .no-js-intro {
+                display: flex;
+                align-items: center;
+                gap: 22px;
+            }
+            .no-js-portrait {
+                width: 96px;
+                height: 96px;
+                flex: 0 0 96px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .no-js-fallback h1 {
+                margin: 0;
+                color: #0f172a;
+                font-family: Merriweather, Georgia, serif;
+                font-size: clamp(1.7rem, 5vw, 2.3rem);
+                line-height: 1.2;
+            }
+            .no-js-subtitle {
+                margin: 8px 0 0;
+                color: #475569;
+            }
+            .no-js-affiliation {
+                margin: 24px 0;
+                color: #475569;
+                font-size: .95rem;
+            }
+            .no-js-fallback h2 {
+                margin: 0 0 8px;
+                color: #0f172a;
+                font-size: 1rem;
+            }
+            .no-js-domains {
+                margin: 0;
+                color: #475569;
+            }
+            .no-js-links {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 24px;
+            }
+            .no-js-links a {
+                display: inline-block;
+                padding: 9px 13px;
+                border: 1px solid #dbeafe;
+                border-radius: 9px;
+                background: #eff6ff;
+                color: #1d4ed8;
+                font-size: .9rem;
+                font-weight: 600;
+                text-decoration: none;
+            }
+            .no-js-note {
+                margin: 22px 0 0;
+                color: #64748b;
+                font-size: .85rem;
+            }
+            @media (max-width: 520px) {
+                body {
+                    padding: 24px 14px;
+                }
+                .no-js-card {
+                    padding: 22px;
+                }
+                .no-js-intro {
+                    align-items: flex-start;
+                    gap: 16px;
+                }
+                .no-js-portrait {
+                    width: 72px;
+                    height: 72px;
+                    flex-basis: 72px;
+                }
+            }
+        </style>
+    </noscript>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 font-sans antialiased selection:bg-brand-500 selection:text-white transition-colors duration-300 min-h-screen flex flex-col">
+
+    <noscript class="no-js-fallback">
+        <main class="no-js-card">
+            <div class="no-js-intro">
+                <img class="no-js-portrait" src="images/profile/callum-thornton.webp" alt="Callum Thornton" width="96" height="96">
+                <div>
+                    <h1>Callum John Thornton</h1>
+                    <p class="no-js-subtitle">Researcher in biomechanics, markerless motion capture &amp; human kinematics</p>
+                </div>
+            </div>
+            <p class="no-js-affiliation">The University of Tokyo · PhD, University of Warwick (2023)</p>
+            <h2>Research interests</h2>
+            <p class="no-js-domains">Upper-limb prostheses, markerless motion capture, hand kinematics, psycholinguistics, robotics and signal processing.</p>
+            <nav class="no-js-links" aria-label="Profile links">
+                <a href="files/callum_thornton-cv.pdf">Download CV</a>
+                <a href="https://scholar.google.com/citations?user=Ii9dIroAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                <a href="https://orcid.org/0000-0001-7641-0565" target="_blank" rel="noopener noreferrer">ORCID</a>
+                <a href="https://www.linkedin.com/in/callum-john-thornton/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </nav>
+            <p class="no-js-note">The full portfolio, including publication filters and photo logs, is available when JavaScript is enabled.</p>
+        </main>
+    </noscript>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300 bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 px-5 py-3 rounded-xl shadow-2xl flex items-center space-x-3 pointer-events-none">
+        <span id="toast-message" class="text-sm font-medium">Notification message</span>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 w-full backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border-b border-slate-200/80 dark:border-slate-800/80 transition-colors duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            
+            <!-- Brand / Logo -->
+            <!--
+            <a href="#about" onclick="navigateTo('#about')" class="flex items-center space-x-2 group">
+                <span class="w-9 h-9 rounded-lg bg-brand-600 text-white font-serif font-bold text-lg flex items-center justify-center shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform">CT</span>
+                <div class="flex flex-col">
+                    <span class="font-semibold text-base tracking-tight text-slate-900 dark:text-white font-serif leading-tight">Dr. Callum John Thornton</span>
+                    <span class="text-[10px] text-slate-500 dark:text-slate-400 font-sans">University of Tokyo</span>
+                </div>
+            </a>
+            -->
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center space-x-1 lg:space-x-2 text-sm font-medium">
+                <a href="#about" onclick="navigateTo('#about')" class="px-3 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition">About</a>
+                <a href="#research" onclick="navigateTo('#research')" class="px-3 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition">Research</a>
+                <a href="#publications" onclick="navigateTo('#publications')" class="px-3 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition">Publications</a>
+                <a href="#achievements" onclick="navigateTo('#achievements')" class="px-3 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition">Achievements</a>
+                <a href="#beyond-the-lab" onclick="navigateTo('#beyond-the-lab')" class="px-3 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition">Beyond the Lab</a>
+            </nav>
+
+            <!-- Actions (Theme Toggle & CV) -->
+            <div class="ml-auto flex items-center space-x-3">
+                <button id="theme-toggle" type="button" aria-label="Toggle Theme" class="p-2 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+                    <i data-lucide="sun" class="w-5 h-5 hidden dark:block"></i>
+                    <i data-lucide="moon" class="w-5 h-5 block dark:hidden"></i>
+                </button>
+
+                <a href="files/callum_thornton-cv.pdf" download class="hidden sm:inline-flex items-center space-x-2 bg-brand-600 hover:bg-brand-700 text-white text-xs font-semibold px-4 py-2 rounded-lg shadow-sm hover:shadow transition transform hover:-translate-y-0.5">
+                    <i data-lucide="download" class="w-4 h-4"></i>
+                    <span>CV</span>
+                </a>
+
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-btn" type="button" class="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 pt-2 pb-4 space-y-1">
+            <a href="#about" onclick="navigateTo('#about'); closeMobileMenu();" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">About</a>
+            <a href="#research" onclick="navigateTo('#research'); closeMobileMenu();" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Research</a>
+            <a href="#publications" onclick="navigateTo('#publications'); closeMobileMenu();" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Publications</a>
+            <a href="#achievements" onclick="navigateTo('#achievements'); closeMobileMenu();" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Achievements</a>
+            <a href="#beyond-the-lab" onclick="navigateTo('#beyond-the-lab'); closeMobileMenu();" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Beyond the Lab</a>
+            <a href="files/callum_thornton-cv.pdf" download class="inline-flex w-full items-center justify-center space-x-2 bg-brand-600 text-white font-semibold px-4 py-2 rounded-lg mt-2">
+                <i data-lucide="download" class="w-4 h-4"></i>
+                <span>Download Full CV</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN PORTFOLIO VIEW -->
+    <div id="main-view" class="transition-opacity duration-300">
+
+        <!-- Hero / Bio Section -->
+        <section id="about" class="pt-10 md:pt-16 bg-gradient-to-b from-white to-slate-50 dark:from-slate-900 dark:to-slate-950">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row items-center md:items-start gap-8 lg:gap-12">
+                    
+                    <!-- Profile Avatar Card -->
+                    <div class="flex flex-col items-center shrink-0">
+                        <div class="relative group">
+                            <div class="absolute -inset-1 bg-gradient-to-r from-brand-600 to-indigo-600 rounded-full blur opacity-30 group-hover:opacity-60 transition duration-300"></div>
+                            <div class="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden bg-slate-900 border-4 border-white dark:border-slate-800 shadow-xl">
+                                <img src="images/profile/callum-thornton.webp" alt="Callum Thornton" width="192" height="192" fetchpriority="high" decoding="async" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+
+                        <!-- Affiliation Badges -->
+                        <div class="mt-4 text-center space-y-1.5">
+                            <span class="inline-flex items-center text-xs font-semibold px-3 py-1 rounded-full bg-slate-200/70 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+                                <i data-lucide="building-2" class="w-3.5 h-3.5 mr-1 text-brand-600 dark:text-brand-400"></i> The University of Tokyo
+                            </span>
+                            <div class="block">
+                                <span class="inline-flex items-center text-[11px] font-medium text-slate-500 dark:text-slate-400">
+                                    <i data-lucide="graduation-cap" class="w-3 h-3 mr-1 text-amber-500"></i> PhD: University of Warwick (2023)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bio Content -->
+                    <div class="flex-1 text-center md:text-left space-y-4">
+                        <div>
+                            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-slate-900 dark:text-white tracking-tight">
+                                Callum John Thornton
+                            </h1>
+                            <p class="text-lg md:text-xl font-medium text-slate-400 mt-1">
+                                Researcher in Biomechanics, Markerless Motion Capture & Human Kinematics
+                            </p>
+                        </div>
+
+                        <!-- Research Focus Badges -->
+                        <div class="pt-1">
+                            <span class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 block mb-2">Primary Domains</span>
+                            <div class="flex flex-wrap gap-2 justify-center md:justify-start">
+                                <span class="px-3 py-1 text-xs font-medium bg-blue-950/35 text-slate-300 border border-slate-800 rounded-md">Upper-limb Prostheses</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-blue-950/35 text-slate-300 border border-slate-800 rounded-md">Markerless Motion Capture</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-blue-950/35 text-slate-300 border border-slate-800 rounded-md">Hand Kinematics</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-blue-950/35 text-slate-300 border border-slate-800 rounded-md">Psycholinguistics</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-blue-950/35 text-slate-300 border border-slate-800 rounded-md">Robotics</span>
+                                <span class="px-3 py-1 text-xs font-medium bg-blue-950/35 text-slate-300 border border-slate-800 rounded-md">Signal Processing</span>
+                            </div>
+                        </div>
+
+                        <!-- External Links Bar -->
+                        <div class="pt-4 flex flex-wrap items-center justify-center md:justify-start gap-3">
+                            <a href="https://scholar.google.com/citations?user=Ii9dIroAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 px-3.5 py-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 text-xs font-medium hover:border-brand-500 hover:text-brand-600 dark:hover:text-brand-400 shadow-sm transition">
+                                <i data-lucide="graduation-cap" class="w-4 h-4 text-emerald-600"></i>
+                                <span>Google Scholar</span>
+                            </a>
+                            <a href="https://orcid.org/0000-0001-7641-0565" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 px-3.5 py-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 text-xs font-medium hover:border-brand-500 hover:text-brand-600 dark:hover:text-brand-400 shadow-sm transition">
+                                <i data-lucide="id-card" class="w-4 h-4 text-lime-600"></i>
+                                <span>ORCID: 0000-0001-7641-0565</span>
+                            </a>
+                            <a href="www.linkedin.com/in/callum-john-thornton" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 px-3.5 py-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 text-xs font-medium hover:border-brand-500 hover:text-brand-600 dark:hover:text-brand-400 shadow-sm transition">
+                                <i data-lucide="users" class="w-4 h-4 text-sky-500"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-9">
+                <div class="border-b border-slate-200/70 dark:border-slate-700/50"></div>
+            </div>
+        </section>
+
+        <!-- Main Content Area -->
+        <main class="max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-3 pb-12 space-y-12">
+
+            <!-- Research Domains Section -->
+            <section id="research" class="scroll-mt-20 pt-6">
+                <div class="mb-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold font-serif text-slate-900 dark:text-white">Research Vision &amp; Focus</h2>
+                    <!--<p class="text-sm text-slate-500 dark:text-slate-400 mt-1">Redefining how we understand, classify, and restore everyday human hand use across grasping and gesturing.</p>-->
+                </div>
+
+                <!-- Overarching Academic Mission -->
+                <div class="bg-gradient-to-br from-brand-50/80 via-white to-indigo-50/60 dark:from-slate-900 dark:via-slate-900 dark:to-brand-950/30 border border-brand-200/80 dark:border-brand-800/50 rounded-2xl p-6 sm:p-8 shadow-sm mb-6">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-3">
+                        <span class="inline-flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400">
+                            <i data-lucide="compass" class="w-4 h-4"></i>
+                            <span>Core Research Mission</span>
+                        </span>
+                        <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Biomechanics &bull; Psycholinguistics &bull; 3D Computer Vision</span>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold font-serif text-slate-900 dark:text-white leading-snug">
+                        Toward an Unbiased Taxonomy of Everyday Hand Shapes: Unifying Grasping &amp; Communicative Gestures
+                    </h3>
+                    <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+                        Traditional hand biomechanics and upper-limb prosthetics have focused almost exclusively on prehensile object grasping—leaving a major unmet need in natural, conversational gesturing. Working closely with researchers in <strong>psycholinguistics</strong> alongside <strong>biomechanics</strong> and <strong>3D computer vision</strong>, my long-term research investigates how people actually use their hands throughout daily life to establish an unbiased, data-driven taxonomy of hand postures that treats communicative gestures as equally fundamental as physical manipulation.
+                    </p>
+                </div>
+
+                <!-- Three Core Pillars -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm">
+                        <div class="p-3 bg-indigo-50 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 rounded-xl w-fit mb-4">
+                            <i data-lucide="hand" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-bold text-slate-900 dark:text-white text-base">Unbiased Hand Shape &amp; Gesture Taxonomy</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
+                            Capturing unconstrained everyday hand movements to build a comprehensive, unbiased posture taxonomy spanning both prehensile grasps and non-prehensile communicative gestures.
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm">
+                        <div class="p-3 bg-amber-50 dark:bg-amber-950/80 text-amber-600 dark:text-amber-400 rounded-xl w-fit mb-4">
+                            <i data-lucide="messages-square" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-bold text-slate-900 dark:text-white text-base">Psycholinguistics &amp; Multimodal Context</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
+                            Collaborating with psycholinguists to model how hand kinematics, gaze-hand interaction, speech prosody, and social context distinguish communicative gesturing from object manipulation.
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm">
+                        <div class="p-3 bg-brand-50 dark:bg-brand-950/80 text-brand-600 dark:text-brand-400 rounded-xl w-fit mb-4">
+                            <i data-lucide="camera" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-bold text-slate-900 dark:text-white text-base">Markerless &amp; Egocentric 3D Vision</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
+                            Combining multi-camera markerless motion capture, egocentric smart-glasses sensing, synthetic datasets, and spatio-temporal graph models to enable expressive, intuitive upper-limb prostheses.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications Section -->
+            <section id="publications" class="relative scroll-mt-20 pt-6 before:content-[''] before:absolute before:-top-3 before:left-0 before:right-0 before:border-t before:border-slate-200/70 dark:before:border-slate-700/50">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-bold font-serif text-slate-900 dark:text-white">Publications</h2>
+                        <!--<p class="text-sm text-slate-500 dark:text-slate-400 mt-1">Peer-reviewed journal papers, international conference proceedings, presentations, posters, and doctoral thesis.</p>-->
+                    </div>
+                </div>
+
+                <!-- Filters & Search Toolbar -->
+                <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm mb-6 space-y-4 md:space-y-0 md:flex md:items-center md:justify-between gap-4">
+                    <div class="flex flex-wrap gap-1.5" id="pub-type-filters">
+                        <button type="button" data-filter="all" aria-pressed="true" class="pub-filter-btn active px-3 py-1.5 rounded-lg text-xs font-semibold bg-brand-600 text-white transition">All</button>
+                        <button type="button" data-filter="paper" aria-pressed="false" class="pub-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition">Papers</button>
+                        <button type="button" data-filter="presentation" aria-pressed="false" class="pub-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition">Talks</button>
+                        <button type="button" data-filter="poster" aria-pressed="false" class="pub-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition">Posters</button>
+                        <button type="button" data-filter="thesis" aria-pressed="false" class="pub-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition">Thesis</button>
+                    </div>
+
+                    <div class="flex items-center space-x-2 w-full md:w-auto">
+                        <div class="relative flex-1 md:w-64">
+                            <i data-lucide="search" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                            <input type="text" id="pub-search" placeholder="Search title, co-author..." class="w-full pl-9 pr-3 py-1.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-brand-500 text-slate-800 dark:text-slate-200 placeholder-slate-400">
+                        </div>
+                        <select id="pub-year-filter" class="bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-xs rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-brand-500">
+                            <option value="all">All Years</option>
+                            <option value="2026">2026</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2018">2018</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Publications Grid (Compact w-20 h-16 thumbnail on small screens, sm:w-44 sm:h-28 md:w-52 md:h-32 on desktop) -->
+                <div id="publications-container" class="space-y-4">
+                    
+                    <!-- Presentation 1 (ORCID: APCMBE 2026 Poster) -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="presentation" data-poster="true" data-year="2026"
+                         data-bibtex='@misc{thornton2026evaluating,
+  title={Evaluating Noise Tolerance Limits for Single-Lead Wearable ECG Heart Rate Tracking},
+  author={Thornton, Callum John and Callejas Pastor, Cecilia A. and Chien, ND and Svensson, Thomas and Kishi Svensson, Akiko},
+  howpublished={APCMBE 2026},
+  month={nov},
+  year={2026}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">Conference Presentation</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300">Poster Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">Nov. 2026</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Evaluating Noise Tolerance Limits for Single-Lead Wearable ECG Heart Rate Tracking
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Cecilia A. Callejas Pastor, Chien ND, Thomas Svensson, Akiko Kishi Svensson
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    APCMBE 2026
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('APCMBE 2026 Poster Figure', 'Evaluating Noise Tolerance Limits for Single-Lead Wearable ECG Heart Rate Tracking', 'images/dissemination/2026_APCMBE_2.png')" aria-label="Preview figure for Evaluating Noise Tolerance Limits for Single-Lead Wearable ECG Heart Rate Tracking" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/2026_APCMBE_2.png" alt="Mean absolute HRV error across noise frequencies and SNR levels" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <a href="posters/2026_APCMBE_2.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="image" class="w-3.5 h-3.5 text-sky-500"></i>
+                                <span>Poster</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Presentation 2 (ORCID: APCMBE 2026 Poster) -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="presentation" data-poster="true" data-year="2026"
+                         data-bibtex='@misc{thornton2026updating,
+  title={Updating Our Understanding of How We Use Our Hands for the Modern Day: A Feasibility Study},
+  author={Thornton, Callum John},
+  howpublished={APCMBE 2026},
+  month={nov},
+  year={2026}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">Conference Presentation</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300">Poster Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">Nov. 2026</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Updating Our Understanding of How We Use Our Hands for the Modern Day: A Feasibility Study
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    APCMBE 2026
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('APCMBE 2026 Poster Figure', 'Updating Our Understanding of How We Use Our Hands for the Modern Day: A Feasibility Study', 'images/dissemination/2026_APCMBE_1.png')" aria-label="Preview figure for Updating Our Understanding of How We Use Our Hands for the Modern Day" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/2026_APCMBE_1.png" alt="Illustration of people using their hands to interact with technology" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <a href="posters/2026_APCMBE_1.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="image" class="w-3.5 h-3.5 text-sky-500"></i>
+                                <span>Poster</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Presentation 3 (ORCID: APCMBE 2025 Poster) -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="presentation" data-poster="true" data-year="2025"
+                         data-bibtex='@misc{callejas2025wearable,
+  title={Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over},
+  author={Callejas Pastor, Cecilia A. and Thornton, Callum John and Chien, ND and Svensson, Thomas and Kishi Svensson, Akiko},
+  howpublished={APCMBE 2025},
+  month={nov},
+  year={2025}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">Conference Presentation</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300">Poster Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">Nov. 2025</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    Cecilia A. Callejas Pastor, <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Chien ND, Thomas Svensson, Akiko Kishi Svensson
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    APCMBE 2025
+                                </p>
+                            </div>
+
+                            <div class="relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Poster unavailable" width="208" height="128" loading="lazy" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 1 -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="conference" data-poster="true" data-year="2026"
+                         data-bibtex='@inproceedings{thornton2026preliminary,
+  title={A Preliminary Study of the Optimal Camera Locations for Markerless Motion Capture in Construction Machinery Cabins},
+  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},
+  booktitle={International Conference on Human-Computer Interaction (HCII)},
+  pages={636--647},
+  month={jul},
+  year={2026},
+  publisher={Springer}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-teal-100 dark:bg-teal-950/80 text-teal-800 dark:text-teal-300 border border-teal-200 dark:border-teal-800">Conference Paper</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300">Poster Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">Jul. 2026</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    A Preliminary Study of the Optimal Camera Locations for Markerless Motion Capture in Construction Machinery Cabins
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Mitsunori Tada, Tsubasa Maruyama
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    International Conference on Human-Computer Interaction (HCII 2026), pp. 636–647
+                                </p>
+
+                                <div class="mt-3">
+                                    <button onclick="toggleAbstract('abs-1')" class="text-xs font-medium text-brand-600 dark:text-brand-400 hover:underline inline-flex items-center space-x-1">
+                                        <span>Show Summary</span>
+                                        <i data-lucide="chevron-down" class="w-3 h-3"></i>
+                                    </button>
+                                    <div id="abs-1" class="hidden mt-2 p-3 bg-slate-50 dark:bg-slate-800/50 rounded-lg text-xs text-slate-600 dark:text-slate-300 leading-relaxed border border-slate-200/60 dark:border-slate-700/60">
+                                        Investigates camera layout optimization inside heavy equipment cabins to minimize occlusions and improve pose tracking during complex operational tasks.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('HCII 2026 Figure', 'Optimal Camera Locations for Markerless Motion Capture in Construction Machinery Cabins', 'images/dissemination/2026_HCI-optimized.webp')" aria-label="Preview figure for Optimal Camera Locations in Construction Machinery Cabins" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/2026_HCI-thumb.webp" alt="3D comparison of markerless motion capture camera locations" width="208" height="128" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <a href="https://doi.org/10.1007/978-3-032-30819-1_67" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-emerald-500"></i>
+                                <span>DOI Link</span>
+                            </a>
+                            <a href="posters/2026_HCI.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="image" class="w-3.5 h-3.5 text-sky-500"></i>
+                                <span>Poster</span>
+                            </a>
+                            <button type="button" disabled title="Available after upload" aria-label="Slides" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="presentation" class="w-3.5 h-3.5"></i>
+                                <span>Slides</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Video" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>Video</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 2 -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="conference" data-presentation="true" data-year="2025"
+                         data-bibtex='@inproceedings{thornton2025synthetic,
+  title={Generating a Synthetic Dataset for Hand Pose Estimation Training},
+  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},
+  booktitle={IEEE International Conference on Systems, Man, and Cybernetics (SMC)},
+  month={oct},
+  year={2025},
+  organization={IEEE}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-teal-100 dark:bg-teal-950/80 text-teal-800 dark:text-teal-300 border border-teal-200 dark:border-teal-800">Conference Paper</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300">Oral Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">Oct. 2025</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Generating a Synthetic Dataset for Hand Pose Estimation Training
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Mitsunori Tada, Tsubasa Maruyama
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+                                </p>
+
+                                <div class="mt-3">
+                                    <button onclick="toggleAbstract('abs-2')" class="text-xs font-medium text-brand-600 dark:text-brand-400 hover:underline inline-flex items-center space-x-1">
+                                        <span>Show Summary</span>
+                                        <i data-lucide="chevron-down" class="w-3 h-3"></i>
+                                    </button>
+                                    <div id="abs-2" class="hidden mt-2 p-3 bg-slate-50 dark:bg-slate-800/50 rounded-lg text-xs text-slate-600 dark:text-slate-300 leading-relaxed border border-slate-200/60 dark:border-slate-700/60">
+                                        Introduces a synthetic rendering pipeline for generating labeled 3D hand poses with occlusions, accelerating model generalization in unstructured environments.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('IEEE SMC 2025 Figure', 'Generating a Synthetic Dataset for Hand Pose Estimation Training', 'images/dissemination/matrix-placeholder.png')" aria-label="Preview figure for Generating a Synthetic Dataset for Hand Pose Estimation Training" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Matrix code placeholder image" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <a href="https://doi.org/10.1109/smc58881.2025.11343112" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-emerald-500"></i>
+                                <span>DOI Link</span>
+                            </a>
+                            <button type="button" disabled title="Available after upload" aria-label="Slides" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="presentation" class="w-3.5 h-3.5"></i>
+                                <span>Slides</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Video" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>Video</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 3 -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="conference" data-presentation="true" data-year="2025"
+                         data-bibtex='@inproceedings{thornton2025utilising,
+  title={Utilising optimisation techniques for accurate and robust markerless motion capture reconstructions},
+  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},
+  booktitle={IUPESM World Congress on Medical Physics and Biomedical Engineering},
+  pages={515--533},
+  year={2025},
+  publisher={Springer}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-teal-100 dark:bg-teal-950/80 text-teal-800 dark:text-teal-300 border border-teal-200 dark:border-teal-800">Conference Paper</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300">Oral Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">[MMM.] 2025</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Utilising Optimisation Techniques for Accurate and Robust Markerless Motion Capture Reconstructions
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Mitsunori Tada, Tsubasa Maruyama
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    IUPESM World Congress on Medical Physics and Biomedical Engineering, pp. 515–533
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('IUPESM 2025 Figure', 'Utilising Optimisation Techniques for Accurate and Robust Markerless Motion Capture Reconstructions', 'images/dissemination/matrix-placeholder.png')" aria-label="Preview figure for Optimisation Techniques for Markerless Motion Capture Reconstructions" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Matrix code placeholder image" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <a href="https://doi.org/10.1007/978-3-032-20287-1_46" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-emerald-500"></i>
+                                <span>DOI Link</span>
+                            </a>
+                            <button type="button" disabled title="Available after upload" aria-label="Slides" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="presentation" class="w-3.5 h-3.5"></i>
+                                <span>Slides</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Video" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>Video</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 4 -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="journal" data-year="2024"
+                         data-bibtex='@article{thornton2024portable,
+  title={Portable markerless hand motion capture system for determining the grasps performed in activities of daily living},
+  author={Thornton, Callum John and Chappell, Michael J and Evans, Neil D and Hardwicke, Joseph},
+  journal={Computer Methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization},
+  volume={12},
+  number={1},
+  year={2024},
+  publisher={Taylor \& Francis}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">Journal Article</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">[MMM.] 2024</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Portable Markerless Hand Motion Capture System for Determining the Grasps Performed in Activities of Daily Living
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('CMBBE: Imaging & Visualization (2024)', 'Portable Markerless Hand Motion Capture System for Determining the Grasps Performed in Activities of Daily Living', 'images/dissemination/matrix-placeholder.png')" aria-label="Preview figure for Portable Markerless Hand Motion Capture System" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Matrix code placeholder image" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <a href="https://doi.org/10.1080/21681163.2023.2296625" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-emerald-500"></i>
+                                <span>DOI Link</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Paper 5 -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="journal" data-year="2024"
+                         data-bibtex='@article{trejo2024quantification,
+  title={Quantification of finger grasps during activities of daily life using convolutional neural networks: A pilot study},
+  author={Trejo Ram{\&#39;\i}rez, Mario Alberto and Thornton, Callum John and Evans, Neil D and Chappell, Michael J},
+  journal={Healthcare Technology Letters},
+  volume={11},
+  number={5},
+  pages={259--270},
+  year={2024},
+  doi={10.1049/htl2.12080}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center justify-between gap-2 mb-2">
+                                    <div class="flex items-center space-x-2">
+                                        <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">Journal Article</span>
+                                    </div>
+                                    <span class="whitespace-nowrap text-right text-xs font-semibold text-slate-400">[MMM.] 2024</span>
+                                    <!--<span class="text-xs font-mono text-slate-400">DOI: 10.1049/htl2.12080</span>-->
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Quantification of Finger Grasps During Activities of Daily Life Using Convolutional Neural Networks
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    Mario P. Trejo Ramírez, <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Neil D. Evans, Michael J. Chappell
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    Healthcare Technology Letters, 11(5), pp. 259–270
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('Healthcare Technology Letters (2024)', 'Quantification of Finger Grasps During Activities of Daily Life Using Convolutional Neural Networks', 'images/dissemination/2024_HTL.png')" aria-label="Preview figure for Quantification of Finger Grasps Using CNNs" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/2024_HTL.png" alt="CNN grasp classification architecture figure" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <a href="https://doi.org/10.1049/htl2.12080" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-emerald-500"></i>
+                                <span>DOI Link</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Thesis -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="thesis" data-year="2023"
+                         data-bibtex='@phdthesis{thornton2023modelling,
+  title={Modelling and analysis of hand motion in everyday activities with application to prosthetic hand technology},
+  author={Thornton, Callum John},
+  year={2023},
+  school={University of Warwick}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center justify-between gap-2 mb-2">
+                                    <div class="flex items-center space-x-2">
+                                        <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-purple-100 dark:bg-purple-950/80 text-purple-800 dark:text-purple-300 border border-purple-200 dark:border-purple-800">Thesis</span>
+                                    </div>
+                                    <span class="whitespace-nowrap text-right text-xs font-semibold text-slate-400">[MMM.] 2023</span>
+                                    <!--<span class="text-xs font-semibold text-purple-600 dark:text-purple-400">University of Warwick</span>-->
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    Doctoral Dissertation, School of Engineering, University of Warwick
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('Thesis (University of Warwick, 2023)', 'Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology', 'images/dissemination/matrix-placeholder.png')" aria-label="Preview figure for Thesis on Prosthetic Hand Technology" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Matrix code placeholder image" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Presentation 3 (ORCID: IUPESM WC2022) -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="presentation" data-year="2022"
+                         data-bibtex='@misc{thornton2022validation,
+  title={Validation and Clinical Applications of the Leap Motion Controller},
+  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},
+  howpublished={IUPESM WC2022},
+  month={jun},
+  year={2022}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">Conference Presentation</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300">Oral Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">Jun. 2022</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Validation and Clinical Applications of the Leap Motion Controller
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    IUPESM WC2022
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('IUPESM WC2022 Presentation', 'Validation and Clinical Applications of the Leap Motion Controller', 'images/dissemination/matrix-placeholder.png')" aria-label="Preview figure for Validation and Clinical Applications of the Leap Motion Controller" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Matrix code placeholder image" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Slides" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="presentation" class="w-3.5 h-3.5"></i>
+                                <span>Slides</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Video" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>Video</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 7 -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="conference" data-presentation="true" data-year="2022"
+                         data-bibtex='@inproceedings{thornton2022predicting,
+  title={Predicting Muscle Excitations of the Hand from Kinematic Data},
+  author={Thornton, Callum John and Chappell, Michael J and Evans, Neil D and Hardwicke, Joseph},
+  booktitle={2022 IEEE 5th International Conference on Industrial Cyber-Physical Systems (ICPS)},
+  year={2022},
+  organization={IEEE}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-teal-100 dark:bg-teal-950/80 text-teal-800 dark:text-teal-300 border border-teal-200 dark:border-teal-800">Conference Paper</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300">Oral Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">[MMM.] 2022</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Predicting Muscle Excitations of the Hand from Kinematic Data
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    2022 IEEE 5th International Conference on Industrial Cyber-Physical Systems (ICPS)
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('IEEE ICPS 2022 Figure', 'Predicting Muscle Excitations of the Hand from Kinematic Data', 'images/dissemination/matrix-placeholder.png')" aria-label="Preview figure for Predicting Muscle Excitations of the Hand from Kinematic Data" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Matrix code placeholder image" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <a href="https://doi.org/10.1109/icps51978.2022.9816979" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5 text-emerald-500"></i>
+                                <span>DOI Link</span>
+                            </a>
+                            <button type="button" disabled title="Available after upload" aria-label="Slides" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="presentation" class="w-3.5 h-3.5"></i>
+                                <span>Slides</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Video" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>Video</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Presentation 4 (ORCID: BioMedEng21) -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="presentation" data-year="2021"
+                         data-bibtex='@misc{thornton2021modelling,
+  title={Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology},
+  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},
+  howpublished={BioMedEng21},
+  month={jan},
+  year={2021}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">Conference Presentation</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300">Oral Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">Jan. 2021</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    BioMedEng21
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('BioMedEng21 Presentation', 'Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology', 'images/dissemination/matrix-placeholder.png')" aria-label="Preview figure for BioMedEng21 Hand Motion Modelling" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Matrix code placeholder image" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Slides" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="presentation" class="w-3.5 h-3.5"></i>
+                                <span>Slides</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Video" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>Video</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Presentation 5 (ORCID: Workshop: Gesture & Technology 2018 - Invited Speaker) -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="presentation" data-year="2018"
+                         data-bibtex='@misc{thornton2018methods,
+  title={Methods for Capturing Long-Term Natural Hand Motions},
+  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},
+  howpublished={Workshop: Gesture \& Technology},
+  note={Invited Speaker},
+  month={jun},
+  year={2018}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">Conference Presentation</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 inline-flex items-center gap-1">
+                                        <span>Invited Speaker</span>
+                                    </span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">Jun. 2018</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    Methods for Capturing Long-Term Natural Hand Motions
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    Workshop: Gesture &amp; Technology
+                                </p>
+                            </div>
+
+                            <button type="button" onclick="openPreviewModal('Workshop: Gesture & Technology (2018)', 'Methods for Capturing Long-Term Natural Hand Motions', 'images/dissemination/matrix-placeholder.png')" aria-label="Preview figure for Methods for Capturing Long-Term Natural Hand Motions" class="group relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 shadow-sm hover:shadow-md hover:border-brand-500 transition self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Matrix code placeholder image" width="208" height="128" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/0 group-hover:bg-slate-950/35 transition flex items-center justify-center">
+                                    <span class="opacity-0 group-hover:opacity-100 transition bg-slate-900/85 text-white p-1.5 rounded-full shadow">
+                                        <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Slides" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="presentation" class="w-3.5 h-3.5"></i>
+                                <span>Slides</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- AIST DHRT Symposium Poster -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="presentation" data-poster="true" data-year="YYYY"
+                         data-bibtex='@misc{thorntonYYYYdhrt,
+  title={TITLE},
+  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},
+  howpublished={AIST DHRT Symposium},
+  year={YYYY}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">Conference Presentation</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300">Poster Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">[MMM.] [YYYY]</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    [TITLE]
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Mitsunori Tada, Tsubasa Maruyama
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    AIST DHRT Symposium
+                                </p>
+                            </div>
+
+                            <div class="relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Poster preview unavailable until upload" width="208" height="128" loading="lazy" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Poster" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="image" class="w-3.5 h-3.5"></i>
+                                <span>Poster</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- School of Engineering 7th Postgraduate Symposium Poster -->
+                    <div class="pub-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm hover:shadow-md transition duration-200"
+                         data-type="presentation" data-poster="true" data-year="2018"
+                         data-bibtex='@misc{thornton2018postgrad,
+  title={TITLE},
+  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},
+  howpublished={School of Engineering 7th Postgraduate Symposium, University of Warwick},
+  year={2018}
+}'>
+                        <div class="flex items-start justify-between gap-3 sm:gap-5">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">Conference Presentation</span>
+                                    <span class="px-2 py-0.5 text-[10px] font-bold rounded bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300">Poster Presentation</span>
+                                    <span class="ml-auto whitespace-nowrap text-right text-xs font-semibold text-slate-400">[MMM.] 2018</span>
+                                </div>
+
+                                <h3 class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">
+                                    [TITLE]
+                                </h3>
+
+                                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                                    <strong class="text-slate-900 dark:text-slate-100 underline decoration-brand-500">Callum J. Thornton</strong>, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke
+                                </p>
+
+                                <p class="text-xs text-slate-500 dark:text-slate-400 italic mt-1">
+                                    School of Engineering 7th Postgraduate Symposium, University of Warwick
+                                </p>
+                            </div>
+
+                            <div class="relative w-20 h-16 sm:w-44 sm:h-28 md:w-52 md:h-32 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-800 self-start mt-0.5">
+                                <img src="images/dissemination/matrix-placeholder.png" alt="Poster preview unavailable until upload" width="208" height="128" loading="lazy" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center gap-2">
+                            <button onclick="openBibtexModal(this)" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-medium text-slate-700 dark:text-slate-300 transition">
+                                <i data-lucide="quote" class="w-3.5 h-3.5 text-brand-500"></i>
+                                <span>BibTeX</span>
+                            </button>
+                            <button type="button" disabled title="Available after upload" aria-label="Poster" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                                <i data-lucide="image" class="w-3.5 h-3.5"></i>
+                                <span>Poster</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Achievements & Funding Section (from ORCID) -->
+            <section id="achievements" class="relative scroll-mt-20 pt-6 before:content-[''] before:absolute before:-top-3 before:left-0 before:right-0 before:border-t before:border-slate-200/70 dark:before:border-slate-700/50">
+                <div class="mb-8">
+                    <h2 class="text-2xl sm:text-3xl font-bold font-serif text-slate-900 dark:text-white">Achievements &amp; Funding</h2>
+                    <!--<p class="text-sm text-slate-500 dark:text-slate-400 mt-1">Academic honors, distinctions, teaching commendations, and research grants.</p>-->
+                </div>
+
+                <!-- Honors & Distinctions -->
+                <div class="mb-10">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-4 flex items-center space-x-2">
+                        <i data-lucide="award" class="w-4 h-4 text-amber-500"></i>
+                        <span>Honors &amp; Distinctions</span>
+                    </h3>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Distinction 1 -->
+                        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex items-start gap-4">
+                            <div class="p-2.5 bg-amber-50 dark:bg-amber-950/80 text-amber-600 dark:text-amber-400 rounded-xl shrink-0">
+                                <i data-lucide="trophy" class="w-5 h-5"></i>
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="px-2 py-0.5 text-[10px] font-bold uppercase rounded bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300">Teaching Distinction</span>
+                                    <span class="text-xs font-semibold text-slate-400">2018</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base mt-1.5 leading-snug">
+                                    Warwick Awards for Teaching Excellence PGR Commendee
+                                </h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                                    University of Warwick &bull; Coventry, UK
+                                </p>
+                                <a href="https://warwick.ac.uk/fac/cross_fac/academic-development/wate/wate1718/callum-thornton/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1 text-xs font-medium text-brand-600 dark:text-brand-400 hover:underline mt-2">
+                                    <span>Award Citation</span>
+                                    <i data-lucide="external-link" class="w-3 h-3"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Distinction 2 -->
+                        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex items-start gap-4">
+                            <div class="p-2.5 bg-amber-50 dark:bg-amber-950/80 text-amber-600 dark:text-amber-400 rounded-xl shrink-0">
+                                <i data-lucide="award" class="w-5 h-5"></i>
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="px-2 py-0.5 text-[10px] font-bold uppercase rounded bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300">Poster Award</span>
+                                    <span class="text-xs font-semibold text-slate-400">2018</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base mt-1.5 leading-snug">
+                                    7th Postgraduate Symposium Poster Award
+                                </h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                                    School of Engineering, University of Warwick &bull; Coventry, UK
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Distinction 3 -->
+                        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex items-start gap-4">
+                            <div class="p-2.5 bg-brand-50 dark:bg-brand-950/80 text-brand-600 dark:text-brand-400 rounded-xl shrink-0">
+                                <i data-lucide="medal" class="w-5 h-5"></i>
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="px-2 py-0.5 text-[10px] font-bold uppercase rounded bg-brand-100 dark:bg-brand-950 text-brand-800 dark:text-brand-300">Academic Distinction</span>
+                                    <span class="text-xs font-semibold text-slate-400">2017</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base mt-1.5 leading-snug">
+                                    Best in Class, Masters
+                                </h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                                    School of Engineering, University of Warwick &bull; Coventry, UK
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Distinction 4 -->
+                        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex items-start gap-4">
+                            <div class="p-2.5 bg-brand-50 dark:bg-brand-950/80 text-brand-600 dark:text-brand-400 rounded-xl shrink-0">
+                                <i data-lucide="medal" class="w-5 h-5"></i>
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="px-2 py-0.5 text-[10px] font-bold uppercase rounded bg-brand-100 dark:bg-brand-950 text-brand-800 dark:text-brand-300">Academic Distinction</span>
+                                    <span class="text-xs font-semibold text-slate-400">2016</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base mt-1.5 leading-snug">
+                                    Best in Class, Bachelors
+                                </h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                                    School of Engineering, University of Warwick &bull; Coventry, UK
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Research Funding & Grants -->
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-4 flex items-center space-x-2">
+                        <i data-lucide="landmark" class="w-4 h-4 text-emerald-500"></i>
+                        <span>Research Grants &amp; Funding</span>
+                    </h3>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Grant 1 -->
+                        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex items-start gap-4">
+                            <div class="p-2.5 bg-emerald-50 dark:bg-emerald-950/80 text-emerald-600 dark:text-emerald-400 rounded-xl shrink-0">
+                                <i data-lucide="landmark" class="w-5 h-5"></i>
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center justify-between gap-2">
+                                    <span class="px-2 py-0.5 text-[10px] font-bold uppercase rounded bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300">EPSRC Grant</span>
+                                    <span class="text-xs font-semibold text-slate-400">2021 – 2024</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base mt-1.5 leading-snug">
+                                    A sensorimotor PROsthesis for the upper LIMB (PROLIMB)
+                                </h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                                    Engineering and Physical Sciences Research Council (Swindon, UK)
+                                </p>
+                                <div class="mt-2 flex flex-wrap items-center gap-3 text-xs">
+                                    <span class="font-mono text-slate-500 dark:text-slate-400">Grant: EP/V011375/1</span>
+                                    <a href="https://app.dimensions.ai/details/grant/grant.9471469" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1 font-medium text-brand-600 dark:text-brand-400 hover:underline">
+                                        <span>Dimensions Record</span>
+                                        <i data-lucide="external-link" class="w-3 h-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Grant 2 -->
+                        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex items-start gap-4">
+                            <div class="p-2.5 bg-emerald-50 dark:bg-emerald-950/80 text-emerald-600 dark:text-emerald-400 rounded-xl shrink-0">
+                                <i data-lucide="landmark" class="w-5 h-5"></i>
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex flex-wrap items-center justify-between gap-2">
+                                    <span class="px-2 py-0.5 text-[10px] font-bold uppercase rounded bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300">EPSRC Grant</span>
+                                    <span class="text-xs font-semibold text-slate-400">2017 – 2021</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base mt-1.5 leading-snug">
+                                    Mathematical Modelling to Support the Design and Development of Upper Limb Prostheses
+                                </h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                                    Engineering and Physical Sciences Research Council (Swindon, UK)
+                                </p>
+                                <div class="mt-2 flex flex-wrap items-center gap-3 text-xs">
+                                    <span class="font-mono text-slate-500 dark:text-slate-400">Grant: 1900942</span>
+                                    <a href="https://app.dimensions.ai/details/grant/grant.7155713" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1 font-medium text-brand-600 dark:text-brand-400 hover:underline">
+                                        <span>Dimensions Record</span>
+                                        <i data-lucide="external-link" class="w-3 h-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BEYOND THE LAB (Mountaineering, Bouldering & Cars) -->
+            <section id="beyond-the-lab" class="relative scroll-mt-20 pt-6 before:content-[''] before:absolute before:-top-3 before:left-0 before:right-0 before:border-t before:border-slate-200/70 dark:before:border-slate-700/50">
+                <div class="mb-8 flex flex-col lg:flex-row lg:items-end justify-between gap-4">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-bold font-serif text-slate-900 dark:text-white">Beyond the Lab</h2>
+                        <!--<p class="text-sm text-slate-500 dark:text-slate-400 mt-1">Exploration of physical kinematics, alpine endurance, and hands-on chassis engineering.</p>-->
+                    </div>
+
+                    <!-- 3-Category Tab Switcher -->
+                    <div class="flex flex-wrap items-center gap-1 bg-slate-100 dark:bg-slate-900 p-1 rounded-xl border border-slate-200 dark:border-slate-800 w-fit">
+                        <button id="hub-tab-mountaineering" onclick="switchHubTab('mountaineering')" class="px-4 py-2 rounded-lg text-xs font-semibold bg-white dark:bg-slate-800 text-sky-600 dark:text-sky-400 shadow-sm transition flex items-center space-x-2">
+                            <i data-lucide="mountain" class="w-4 h-4"></i>
+                            <span>Mountaineering</span>
+                        </button>
+                        <button id="hub-tab-bouldering" onclick="switchHubTab('bouldering')" class="px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 transition flex items-center space-x-2">
+                            <i data-lucide="flame" class="w-4 h-4"></i>
+                            <span>Bouldering</span>
+                        </button>
+                        <button id="hub-tab-cars" onclick="switchHubTab('cars')" class="px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 transition flex items-center space-x-2">
+                            <i data-lucide="car" class="w-4 h-4"></i>
+                            <span>Cars</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 1. MOUNTAINEERING SUB-PANEL -->
+                <div id="hub-panel-mountaineering" class="space-y-6">
+                    <div id="mountaineering-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+                </div>
+
+                <!-- 2. BOULDERING SUB-PANEL -->
+                <div id="hub-panel-bouldering" class="hidden space-y-6">
+                    <div id="bouldering-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+                </div>
+
+                <!-- 3. CARS SUB-PANEL -->
+                <div id="hub-panel-cars" class="hidden space-y-6">
+                    <div id="cars-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- BOULDERING DETAIL VIEW -->
+    <div id="bouldering-detail-view" class="hidden min-h-screen bg-slate-50 dark:bg-slate-950 py-10 transition-opacity duration-300">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            <div class="flex items-center justify-between">
+                <button onclick="returnToHub('bouldering')" class="inline-flex items-center space-x-2 px-4 py-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition shadow-sm">
+                    <i data-lucide="arrow-left" class="w-4 h-4 text-emerald-500"></i>
+                    <span>Back to Bouldering</span>
+                </button>
+                <span class="text-xs font-mono text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/80 px-3 py-1 rounded-full border border-emerald-200 dark:border-emerald-800">
+                    Photos
+                </span>
+            </div>
+            <div id="bouldering-detail-container"></div>
+        </div>
+    </div>
+
+    <!-- MOUNTAINEERING DETAIL VIEW -->
+    <div id="mountaineering-detail-view" class="hidden min-h-screen bg-slate-50 dark:bg-slate-950 py-10 transition-opacity duration-300">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            <div class="flex items-center justify-between">
+                <button onclick="returnToHub('mountaineering')" class="inline-flex items-center space-x-2 px-4 py-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition shadow-sm">
+                    <i data-lucide="arrow-left" class="w-4 h-4 text-sky-500"></i>
+                    <span>Back to Mountaineering</span>
+                </button>
+                <span class="text-xs font-mono text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-950/80 px-3 py-1 rounded-full border border-sky-200 dark:border-sky-800">
+                    Photos
+                </span>
+            </div>
+            <div id="mountaineering-detail-container"></div>
+        </div>
+    </div>
+
+    <!-- CARS DETAIL VIEW -->
+    <div id="car-detail-view" class="hidden min-h-screen bg-slate-50 dark:bg-slate-950 py-10 transition-opacity duration-300">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            <div class="flex items-center justify-between">
+                <button onclick="returnToHub('cars')" class="inline-flex items-center space-x-2 px-4 py-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition shadow-sm">
+                    <i data-lucide="arrow-left" class="w-4 h-4 text-amber-500"></i>
+                    <span>Back to Cars</span>
+                </button>
+                <span class="text-xs font-mono text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/80 px-3 py-1 rounded-full border border-amber-200 dark:border-amber-800">
+                    Photos
+                </span>
+            </div>
+            <div id="car-detail-container"></div>
+        </div>
+    </div>
+
+    <!-- BIBTEX MODAL -->
+    <div id="bibtex-modal" class="fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 w-full max-w-2xl overflow-hidden shadow-2xl">
+            <div class="p-4 sm:p-5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <i data-lucide="quote" class="w-5 h-5 text-brand-600 dark:text-brand-400"></i>
+                    <h3 class="font-bold text-slate-900 dark:text-white text-base">BibTeX Citation</h3>
+                </div>
+                <button onclick="closeBibtexModal()" class="p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            <div class="p-4 sm:p-6 bg-slate-950 text-slate-200 font-mono text-xs overflow-x-auto max-h-96">
+                <pre id="bibtex-text" class="whitespace-pre-wrap leading-relaxed"></pre>
+            </div>
+            <div class="p-4 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 flex justify-end space-x-3">
+                <button onclick="closeBibtexModal()" class="px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 transition">Close</button>
+                <button id="copy-bibtex-btn" onclick="copyBibtex()" class="px-4 py-2 rounded-lg text-xs font-semibold bg-brand-600 hover:bg-brand-700 text-white transition flex items-center space-x-1.5 shadow">
+                    <i data-lucide="copy" class="w-4 h-4"></i>
+                    <span>Copy to Clipboard</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PREVIEW / GALLERY SLIDE MODAL -->
+    <div id="preview-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 w-full max-w-4xl overflow-hidden shadow-2xl">
+            <div class="p-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
+                <h3 id="preview-title" class="font-bold text-slate-900 dark:text-white text-base">Preview Modal</h3>
+                <button onclick="closePreviewModal()" class="p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            <div class="p-4 bg-slate-950 flex flex-col items-center justify-center min-h-[300px]">
+                <img id="preview-image" src="" alt="Preview Image" class="max-h-[60vh] object-contain rounded-lg">
+                <p id="preview-caption" class="text-xs text-slate-400 mt-3 text-center"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Data & Router Logic -->
+    <script src="photos.generated.js"></script>
+    <script>
+        const CONTENT_INDEXES = {
+            bouldering: 'images/bouldering/index.txt',
+            mountaineering: 'images/mountaineering/index.txt',
+            cars: 'images/cars/index.txt'
+        };
+        const IMAGE_EXTENSIONS = /\.(?:jpe?g|png|webp)$/i;
+        let BOULDERING_DATA = [];
+        let MOUNTAINEERING_DATA = [];
+        let CARS_DATA = [];
+
+        async function fetchTextFile(path) {
+            const response = await fetch(path);
+            if (!response.ok) {
+                throw new Error(`Could not load ${path} (${response.status})`);
+            }
+            return response.text();
+        }
+
+        function createPhoto(folder, filename) {
+            if (filename !== filename.split('/').pop() || !IMAGE_EXTENSIONS.test(filename)) {
+                throw new Error(`Invalid photo filename: ${filename}`);
+            }
+            const caption = filename.replace(/\.[^.]+$/, '').replace(/_/g, ' ');
+            return { caption, url: `${folder}/${filename}` };
+        }
+
+        async function loadCategoryItems(category, indexPath) {
+            const indexText = await fetchTextFile(indexPath);
+            const infoPaths = indexText.split(/\r?\n/).map(path => path.trim()).filter(path => path && !path.startsWith('#'));
+            const itemPaths = infoPaths.map(path => `${indexPath.slice(0, indexPath.lastIndexOf('/') + 1)}${path}`);
+            const items = await Promise.all(itemPaths.map(async infoPath => {
+                const info = JSON.parse(await fetchTextFile(infoPath));
+                const photos = window.BEYOND_THE_LAB_PHOTOS?.[info.id];
+                if (!info.id || info.category !== category || !info.thumbnail || !Array.isArray(photos)) {
+                    throw new Error(`Invalid item details in ${infoPath}`);
+                }
+
+                const folder = infoPath.slice(0, infoPath.lastIndexOf('/'));
+                const thumbnail = createPhoto(folder, info.thumbnail);
+                info.bannerImg = thumbnail.url;
+                info.gallery = photos;
+                return info;
+            }));
+            return items;
+        }
+
+        async function loadBeyondTheLabData() {
+            const categories = await Promise.all(Object.entries(CONTENT_INDEXES).map(async ([category, indexPath]) => [
+                category,
+                await loadCategoryItems(category === 'cars' ? 'Cars' : category === 'bouldering' ? 'Bouldering' : 'Mountaineering', indexPath)
+            ]));
+            const loaded = Object.fromEntries(categories);
+            BOULDERING_DATA = loaded.bouldering;
+            MOUNTAINEERING_DATA = loaded.mountaineering;
+            CARS_DATA = loaded.cars;
+        }
+
+        let activeHubTab = 'mountaineering';
+
+        // INITIALIZATION & EVENT LISTENERS
+        document.addEventListener('DOMContentLoaded', async () => {
+            lucide.createIcons();
+            initTheme();
+            setupPublicationFilters();
+            setupDetailViewDismissal();
+            try {
+                await loadBeyondTheLabData();
+                renderBoulderingGrid();
+                renderMountaineeringGrid();
+                renderCarsGrid();
+                handleRouting();
+                window.addEventListener('hashchange', handleRouting);
+            } catch (error) {
+                console.error('Failed to load Beyond the Lab data:', error);
+                showToast('Could not load Beyond the Lab items');
+            }
+        });
+
+        function setupDetailViewDismissal() {
+            const detailViews = [
+                { viewId: 'bouldering-detail-view', containerId: 'bouldering-detail-container', tab: 'bouldering' },
+                { viewId: 'mountaineering-detail-view', containerId: 'mountaineering-detail-container', tab: 'mountaineering' },
+                { viewId: 'car-detail-view', containerId: 'car-detail-container', tab: 'cars' }
+            ];
+
+            detailViews.forEach(({ viewId, containerId, tab }) => {
+                document.getElementById(viewId).addEventListener('click', (event) => {
+                    if (!(event.target instanceof Element)) return;
+                    if (event.target.closest(`#${containerId}`) || event.target.closest('button')) return;
+                    returnToHub(tab);
+                });
+            });
+        }
+
+        // ROUTER SYSTEM
+        function handleRouting() {
+            const hash = window.location.hash || '#about';
+
+            const mainView = document.getElementById('main-view');
+            const boulderingDetailView = document.getElementById('bouldering-detail-view');
+            const mountaineeringDetailView = document.getElementById('mountaineering-detail-view');
+            const carDetailView = document.getElementById('car-detail-view');
+
+            boulderingDetailView.classList.add('hidden');
+            mountaineeringDetailView.classList.add('hidden');
+            carDetailView.classList.add('hidden');
+
+            if (hash.startsWith('#bouldering/')) {
+                const id = hash.replace('#bouldering/', '');
+                showBoulderingDetail(id);
+                mainView.classList.add('hidden');
+                boulderingDetailView.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else if (hash.startsWith('#mountaineering/')) {
+                const id = hash.replace('#mountaineering/', '');
+                showMountaineeringDetail(id);
+                mainView.classList.add('hidden');
+                mountaineeringDetailView.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else if (hash.startsWith('#cars/')) {
+                const id = hash.replace('#cars/', '');
+                showCarDetail(id);
+                mainView.classList.add('hidden');
+                carDetailView.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                mainView.classList.remove('hidden');
+                if (hash && hash !== '#about') {
+                    const targetEl = document.querySelector(hash);
+                    if (targetEl) targetEl.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        }
+
+        function navigateTo(hash) {
+            window.location.hash = hash;
+        }
+
+        function returnToHub(tabName) {
+            switchHubTab(tabName);
+            navigateTo('#beyond-the-lab');
+        }
+
+        // 3-TAB SWITCHING (MOUNTAINEERING vs BOULDERING vs CARS)
+        function switchHubTab(tab) {
+            activeHubTab = tab;
+
+            const tabs = {
+                bouldering: {
+                    btn: document.getElementById('hub-tab-bouldering'),
+                    panel: document.getElementById('hub-panel-bouldering'),
+                    activeColor: 'text-emerald-600 dark:text-emerald-400'
+                },
+                mountaineering: {
+                    btn: document.getElementById('hub-tab-mountaineering'),
+                    panel: document.getElementById('hub-panel-mountaineering'),
+                    activeColor: 'text-sky-600 dark:text-sky-400'
+                },
+                cars: {
+                    btn: document.getElementById('hub-tab-cars'),
+                    panel: document.getElementById('hub-panel-cars'),
+                    activeColor: 'text-amber-600 dark:text-amber-400'
+                }
+            };
+
+            Object.entries(tabs).forEach(([key, config]) => {
+                if (key === tab) {
+                    config.panel.classList.remove('hidden');
+                    config.btn.className = `px-4 py-2 rounded-lg text-xs font-semibold bg-white dark:bg-slate-800 ${config.activeColor} shadow-sm transition flex items-center space-x-2`;
+                } else {
+                    config.panel.classList.add('hidden');
+                    config.btn.className = 'px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 transition flex items-center space-x-2';
+                }
+            });
+        }
+
+        // 1. BOULDERING GRID
+        function renderBoulderingGrid() {
+            const grid = document.getElementById('bouldering-grid');
+            const items = BOULDERING_DATA;
+
+            if (!items.length) {
+                grid.innerHTML = `
+                    <article class="overflow-hidden rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900">
+                        <div class="flex h-40 items-center justify-center border-b border-dashed border-slate-300 bg-slate-50 text-sm text-slate-400 dark:border-slate-700 dark:bg-slate-800/50">
+                            Photo to be added
+                        </div>
+                        <div class="space-y-3 p-5">
+                            <!---<span class="text-[10px] font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">[]</span>--->
+                            <h3 class="font-bold text-slate-900 dark:text-white">[Gym name]</h3>
+                            <p class="text-xs text-slate-500 dark:text-slate-400">[Country, town (date)]</p>
+                            <!---<p class="text-xs leading-relaxed text-slate-500 dark:text-slate-400">[Notes]</p>--->
+                        </div>
+                    </article>`;
+                return;
+            }
+
+            grid.innerHTML = items.map(b => `
+                <a href="#bouldering/${b.id}" class="group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div>
+                        <div class="relative h-44 overflow-hidden bg-slate-900">
+                            <img src="${b.bannerImg}" alt="${b.name}" width="640" height="176" loading="lazy" decoding="async" style="width:100%;height:176px;object-fit:cover" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-center justify-between gap-3 text-[11px] font-medium text-slate-400 mb-1">
+                                <span>${b.location}</span>
+                                <span class="text-right whitespace-nowrap">${b.date}</span>
+                            </div>
+                            <h3 class="font-bold text-slate-900 dark:text-white text-base group-hover:text-emerald-500 transition">${b.name}</h3>
+                        </div>
+                    </div>
+                </a>
+            `).join('');
+            lucide.createIcons();
+        }
+
+        function showBoulderingDetail(id) {
+            const item = BOULDERING_DATA.find(b => b.id === id);
+            const container = document.getElementById('bouldering-detail-container');
+
+            if (!item) {
+                container.innerHTML = `<p class="text-center text-slate-400 py-10">Bouldering entry not found.</p>`;
+                return;
+            }
+
+            container.innerHTML = `
+                <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden shadow-xl">
+                    <div class="relative h-64 sm:h-80 bg-slate-900">
+                        <img src="${item.bannerImg}" alt="${item.name}" width="1600" height="320" fetchpriority="high" decoding="async" style="width:100%;height:clamp(16rem, 31.25vw, 20rem);object-fit:cover" class="w-full h-full object-cover opacity-80">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 right-6 text-white space-y-2">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase bg-emerald-600 text-white">${item.category}</span>
+                                <span class="text-xs text-slate-300 font-medium">${item.date}</span>
+                            </div>
+                            <h1 lang="${item.lang || 'en'}" class="text-2xl sm:text-4xl font-bold font-sans text-white">${item.name}</h1>
+                            <p class="text-xs sm:text-sm text-slate-300 flex items-center space-x-1">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400"></i>
+                                <span>${item.location}</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-6 sm:p-10">
+                        ${item.gallery.length ? `
+                        <div class="space-y-4">
+                            <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center space-x-2">
+                                <i data-lucide="image" class="w-4 h-4 text-emerald-500"></i>
+                                <span>Photos</span>
+                            </h3>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                ${item.gallery.map(img => `
+                                    <div class="group relative rounded-xl overflow-hidden bg-slate-900 border border-slate-200 dark:border-slate-800 cursor-pointer" onclick="openPreviewModal('${item.name}', '${img.caption}', '${img.url}')">
+                                        <img src="${img.url}" alt="${img.caption}" width="640" height="192" loading="lazy" decoding="async" style="width:100%;height:192px;object-fit:cover" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300 opacity-90">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent p-3 flex items-end">
+                                            <p class="text-xs text-white font-medium truncate">${img.caption}</p>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+            lucide.createIcons();
+        }
+
+        // 2. MOUNTAINEERING GRID
+        function renderMountaineeringGrid() {
+            const grid = document.getElementById('mountaineering-grid');
+            const items = MOUNTAINEERING_DATA;
+
+            if (!items.length) {
+                grid.innerHTML = `
+                    <article class="overflow-hidden rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900">
+                        <div class="flex h-40 items-center justify-center border-b border-dashed border-slate-300 bg-slate-50 text-sm text-slate-400 dark:border-slate-700 dark:bg-slate-800/50">
+                            Photo to be added
+                        </div>
+                        <div class="space-y-3 p-5">
+                            <!---<span class="text-[10px] font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400">[]</span>--->
+                            <h3 class="font-bold text-slate-900 dark:text-white">[Mountain]</h3>
+                            <p class="text-xs text-slate-500 dark:text-slate-400">[Country, town (date)]</p>
+                            <!---<p class="text-xs leading-relaxed text-slate-500 dark:text-slate-400">[Notes]</p>--->
+                        </div>
+                    </article>`;
+                return;
+            }
+
+            grid.innerHTML = items.map(m => `
+                <a href="#mountaineering/${m.id}" class="group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div>
+                        <div class="relative h-44 overflow-hidden bg-slate-900">
+                            <img src="${m.bannerImg}" alt="${m.name}" width="640" height="176" loading="lazy" decoding="async" style="width:100%;height:176px;object-fit:cover" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-3 right-3 rounded-full border border-white/20 bg-slate-950/75 px-3 py-1 text-xs font-semibold text-white shadow-sm backdrop-blur-sm">${m.elevation}</span>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-center justify-between gap-3 text-[11px] font-medium text-slate-400 mb-1">
+                                <span>${m.location}</span>
+                                <span class="text-right whitespace-nowrap">${m.date}</span>
+                            </div>
+                            <h3 lang="${m.lang || 'en'}" class="font-bold text-slate-900 dark:text-white text-base group-hover:text-sky-500 transition">${m.name}</h3>
+                        </div>
+                    </div>
+                </a>
+            `).join('');
+            lucide.createIcons();
+        }
+
+        function showMountaineeringDetail(id) {
+            const item = MOUNTAINEERING_DATA.find(m => m.id === id);
+            const container = document.getElementById('mountaineering-detail-container');
+
+            if (!item) {
+                container.innerHTML = `<p class="text-center text-slate-400 py-10">Expedition log not found.</p>`;
+                return;
+            }
+
+            container.innerHTML = `
+                <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden shadow-xl">
+                    <div class="relative h-64 sm:h-80 bg-slate-900">
+                        <img src="${item.bannerImg}" alt="${item.name}" width="1600" height="320" fetchpriority="high" decoding="async" style="width:100%;height:clamp(16rem, 31.25vw, 20rem);object-fit:cover" class="w-full h-full object-cover opacity-80">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 right-6 text-white space-y-2">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase bg-sky-600 text-white">${item.category}</span>
+                                <span class="text-xs text-slate-300 font-medium">${item.date}</span>
+                            </div>
+                            <h1 lang="${item.lang || 'en'}" class="text-2xl sm:text-4xl font-bold font-sans text-white">${item.name}</h1>
+                            <p class="text-xs sm:text-sm text-slate-300 flex items-center space-x-1">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-sky-400"></i>
+                                <span>${item.location} • Summit Elevation ${item.elevation}</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-6 sm:p-10">
+                        ${item.gallery.length ? `
+                        <div class="space-y-4">
+                            <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center space-x-2">
+                                <i data-lucide="image" class="w-4 h-4 text-sky-500"></i>
+                                <span>Photos</span>
+                            </h3>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                ${item.gallery.map(img => `
+                                    <div class="group relative rounded-xl overflow-hidden bg-slate-900 border border-slate-200 dark:border-slate-800 cursor-pointer" onclick="openPreviewModal('${item.name}', '${img.caption}', '${img.url}')">
+                                        <img src="${img.url}" alt="${img.caption}" width="640" height="192" loading="lazy" decoding="async" style="width:100%;height:192px;object-fit:cover" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300 opacity-90">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent p-3 flex items-end">
+                                            <p class="text-xs text-white font-medium truncate">${img.caption}</p>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+            lucide.createIcons();
+        }
+
+        // 3. CARS GRID
+        function renderCarsGrid() {
+            const grid = document.getElementById('cars-grid');
+            const items = CARS_DATA;
+
+            if (!items.length) {
+                grid.innerHTML = `
+                    <article class="overflow-hidden rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900">
+                        <div class="flex h-40 items-center justify-center border-b border-dashed border-slate-300 bg-slate-50 text-sm text-slate-400 dark:border-slate-700 dark:bg-slate-800/50">
+                            Photo to be added
+                        </div>
+                        <div class="space-y-3 p-5">
+                            <!---<span class="text-[10px] font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400">[]</span>--->
+                            <h3 class="font-bold text-slate-900 dark:text-white">[Year] [Company] [Car]</h3>
+                            <p class="text-xs text-slate-500 dark:text-slate-400">[Country (year puchased)]</p>
+                            <!---<p class="text-xs leading-relaxed text-slate-500 dark:text-slate-400">[Notes]</p>--->
+                        </div>
+                    </article>`;
+                return;
+            }
+
+            grid.innerHTML = items.map(g => `
+                <a href="#cars/${g.id}" class="group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div>
+                        <div class="relative h-44 overflow-hidden bg-slate-900">
+                            <img src="${g.bannerImg}" alt="${g.title}" width="640" height="176" loading="lazy" decoding="async" style="width:100%;height:176px;object-fit:cover" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-center justify-between gap-3 text-[11px] font-medium text-slate-400 mb-1">
+                                <span>${g.location}</span>
+                                <span class="text-right whitespace-nowrap">${g.specs.ownership}</span>
+                            </div>
+                            <h3 class="font-bold text-slate-900 dark:text-white text-base group-hover:text-amber-500 transition">${g.year} ${g.car}</h3>
+                        </div>
+                    </div>
+                </a>
+            `).join('');
+            lucide.createIcons();
+        }
+
+        function showCarDetail(id) {
+            const car = CARS_DATA.find(g => g.id === id);
+            const container = document.getElementById('car-detail-container');
+
+            if (!car) {
+                container.innerHTML = `<p class="text-center text-slate-400 py-10">Car build log not found.</p>`;
+                return;
+            }
+
+            container.innerHTML = `
+                <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden shadow-xl">
+                    <div class="relative h-64 sm:h-80 bg-slate-900">
+                        <img src="${car.bannerImg}" alt="${car.title}" width="1600" height="320" fetchpriority="high" decoding="async" style="width:100%;height:clamp(16rem, 31.25vw, 20rem);object-fit:cover" class="w-full h-full object-cover opacity-80">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 right-6 text-white space-y-2">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase bg-amber-600 text-white">${car.category}</span>
+                            </div>
+                            <h1 class="text-2xl sm:text-4xl font-bold font-sans text-white">${car.car}</h1>
+                            <p class="text-xs sm:text-sm text-slate-300 flex items-center space-x-1">
+                                <i data-lucide="car" class="w-4 h-4 text-amber-400"></i>
+                                <span>${car.location} • Owned: ${car.specs.ownership}</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-6 sm:p-10">
+                        ${car.gallery.length ? `
+                        <div class="space-y-4">
+                            <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center space-x-2">
+                                <i data-lucide="image" class="w-4 h-4 text-amber-500"></i>
+                                <span>Photos</span>
+                            </h3>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                ${car.gallery.map(img => `
+                                    <div class="group relative rounded-xl overflow-hidden bg-slate-900 border border-slate-200 dark:border-slate-800 cursor-pointer" onclick="openPreviewModal('${car.title}', '${img.caption}', '${img.url}')">
+                                        <img src="${img.url}" alt="${img.caption}" width="640" height="192" loading="lazy" decoding="async" style="width:100%;height:192px;object-fit:cover" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300 opacity-90">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent p-3 flex items-end">
+                                            <p class="text-xs text-white font-medium truncate">${img.caption}</p>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+
+                    </div>
+                </div>
+            `;
+            lucide.createIcons();
+        }
+
+        // PUBLICATIONS FILTER & SEARCH
+        function setupPublicationFilters() {
+            const publicationsContainer = document.getElementById('publications-container');
+            const sortedPubCards = Array.from(publicationsContainer.querySelectorAll('.pub-card'))
+                .map((card, index) => ({ card, index, year: Number(card.dataset.year) }))
+                .sort((a, b) => {
+                    const aHasYear = Number.isFinite(a.year);
+                    const bHasYear = Number.isFinite(b.year);
+
+                    if (aHasYear !== bHasYear) return aHasYear ? -1 : 1;
+                    return b.year - a.year || a.index - b.index;
+                });
+
+            sortedPubCards.forEach(({ card }) => publicationsContainer.appendChild(card));
+
+            const searchInput = document.getElementById('pub-search');
+            const yearSelect = document.getElementById('pub-year-filter');
+            const filterBtns = document.querySelectorAll('#pub-type-filters button');
+            const pubCards = document.querySelectorAll('.pub-card');
+
+            let currentType = 'all';
+
+            function filterPubs() {
+                const searchVal = searchInput.value.toLowerCase();
+                const yearVal = yearSelect.value;
+
+                pubCards.forEach(card => {
+                    const type = card.getAttribute('data-type');
+                    const year = card.getAttribute('data-year');
+                    const text = card.textContent.toLowerCase();
+
+                    const isPoster = card.dataset.poster === 'true';
+                    const matchesType = currentType === 'all'
+                        || (currentType === 'paper' && ['journal', 'conference'].includes(type))
+                        || (currentType === 'presentation' && (card.dataset.presentation === 'true' || (type === 'presentation' && !isPoster)))
+                        || (currentType === 'poster' && isPoster)
+                        || (currentType === 'thesis' && type === 'thesis');
+                    const matchesYear = (yearVal === 'all' || year === yearVal);
+                    const matchesSearch = text.includes(searchVal);
+
+                    if (matchesType && matchesYear && matchesSearch) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            }
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    filterBtns.forEach(b => {
+                        b.className = 'pub-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition';
+                        b.setAttribute('aria-pressed', 'false');
+                    });
+                    const selectedFilter = e.currentTarget;
+                    selectedFilter.className = 'pub-filter-btn active px-3 py-1.5 rounded-lg text-xs font-semibold bg-brand-600 text-white transition';
+                    selectedFilter.setAttribute('aria-pressed', 'true');
+                    currentType = selectedFilter.getAttribute('data-filter');
+                    filterPubs();
+                });
+            });
+
+            searchInput.addEventListener('input', filterPubs);
+            yearSelect.addEventListener('change', filterPubs);
+        }
+
+        function toggleAbstract(id) {
+            const el = document.getElementById(id);
+            if (el) el.classList.toggle('hidden');
+        }
+
+        // BIBTEX & PREVIEW MODALS
+        let currentBibtex = '';
+
+        function openBibtexModal(btn) {
+            const card = btn.closest('.pub-card');
+            currentBibtex = card.getAttribute('data-bibtex') || '';
+            document.getElementById('bibtex-text').textContent = currentBibtex;
+            document.getElementById('bibtex-modal').classList.remove('hidden');
+        }
+
+        function closeBibtexModal() {
+            document.getElementById('bibtex-modal').classList.add('hidden');
+        }
+
+        function copyBibtex() {
+            const el = document.createElement('textarea');
+            el.value = currentBibtex;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+
+            showToast('BibTeX copied to clipboard!');
+            closeBibtexModal();
+        }
+
+        function openPreviewModal(title, caption, imgUrl) {
+            document.getElementById('preview-title').textContent = title;
+            document.getElementById('preview-caption').textContent = caption;
+            document.getElementById('preview-image').src = imgUrl;
+            document.getElementById('preview-modal').classList.remove('hidden');
+        }
+
+        function closePreviewModal() {
+            document.getElementById('preview-modal').classList.add('hidden');
+        }
+
+        // TOAST SYSTEM
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-message');
+            toastMsg.textContent = msg;
+
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            toast.classList.add('translate-y-0', 'opacity-100');
+
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100');
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+
+        // THEME TOGGLE
+        function initTheme() {
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            themeToggleBtn.addEventListener('click', () => {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+
+            if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        }
+
+        // MOBILE MENU
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        function closeMobileMenu() {
+            mobileMenu.classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
