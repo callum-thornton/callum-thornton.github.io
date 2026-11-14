@@ -53,11 +53,5 @@ window.BEYOND_THE_LAB_PHOTOS = {
       "caption": "Summit",
       "url": "images/mountaineering/2026_palgongsan/Summit.webp"
     }
-  ],
-  "subaru-impreza-2012": [
-    {
-      "caption": "Current",
-      "url": "images/cars/2012_subaru_impreza/Current.webp"
-    }
   ]
 };
