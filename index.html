@@ -1587,61 +1587,18 @@
     <!-- JavaScript Data & Router Logic -->
     <script src="photos.generated.js"></script>
     <script>
-        const CONTENT_INDEXES = {
-            bouldering: 'images/bouldering/index.txt',
-            mountaineering: 'images/mountaineering/index.txt',
-            cars: 'images/cars/index.txt'
-        };
-        const IMAGE_EXTENSIONS = /\.(?:jpe?g|png|webp)$/i;
         let BOULDERING_DATA = [];
         let MOUNTAINEERING_DATA = [];
         let CARS_DATA = [];
 
-        async function fetchTextFile(path) {
-            const response = await fetch(path);
-            if (!response.ok) {
-                throw new Error(`Could not load ${path} (${response.status})`);
-            }
-            return response.text();
-        }
-
-        function createPhoto(folder, filename) {
-            if (filename !== filename.split('/').pop() || !IMAGE_EXTENSIONS.test(filename)) {
-                throw new Error(`Invalid photo filename: ${filename}`);
-            }
-            const caption = filename.replace(/\.[^.]+$/, '').replace(/_/g, ' ');
-            return { caption, url: `${folder}/${filename}` };
-        }
-
-        async function loadCategoryItems(category, indexPath) {
-            const indexText = await fetchTextFile(indexPath);
-            const infoPaths = indexText.split(/\r?\n/).map(path => path.trim()).filter(path => path && !path.startsWith('#'));
-            const itemPaths = infoPaths.map(path => `${indexPath.slice(0, indexPath.lastIndexOf('/') + 1)}${path}`);
-            const items = await Promise.all(itemPaths.map(async infoPath => {
-                const info = JSON.parse(await fetchTextFile(infoPath));
-                const photos = window.BEYOND_THE_LAB_PHOTOS?.[info.id];
-                if (!info.id || info.category !== category || !info.thumbnail || !Array.isArray(photos)) {
-                    throw new Error(`Invalid item details in ${infoPath}`);
-                }
-
-                const folder = infoPath.slice(0, infoPath.lastIndexOf('/'));
-                const thumbnail = createPhoto(folder, info.thumbnail);
-                info.bannerImg = thumbnail.url;
-                info.gallery = photos;
-                return info;
-            }));
-            return items;
-        }
-
         async function loadBeyondTheLabData() {
-            const categories = await Promise.all(Object.entries(CONTENT_INDEXES).map(async ([category, indexPath]) => [
-                category,
-                await loadCategoryItems(category === 'cars' ? 'Cars' : category === 'bouldering' ? 'Bouldering' : 'Mountaineering', indexPath)
-            ]));
-            const loaded = Object.fromEntries(categories);
-            BOULDERING_DATA = loaded.bouldering;
-            MOUNTAINEERING_DATA = loaded.mountaineering;
-            CARS_DATA = loaded.cars;
+            const data = window.BEYOND_THE_LAB_DATA;
+            if (!data) {
+                throw new Error('Generated Beyond the Lab data is missing. Build the site before publishing it.');
+            }
+            BOULDERING_DATA = data.bouldering;
+            MOUNTAINEERING_DATA = data.mountaineering;
+            CARS_DATA = data.cars;
         }
 
         let activeHubTab = 'mountaineering';
