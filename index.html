@@ -1653,6 +1653,7 @@
             setupPublicationFilters();
             setupDetailViewDismissal();
             setupModalDismissal();
+            setupEscapeDismissal();
             try {
                 await loadBeyondTheLabData();
                 renderBoulderingGrid();
@@ -1691,6 +1692,35 @@
                 modal.addEventListener('click', (event) => {
                     if (event.target === modal) close();
                 });
+            });
+        }
+
+        function setupEscapeDismissal() {
+            const dismissibleModals = [
+                { modalId: 'preview-modal', close: closePreviewModal },
+                { modalId: 'bibtex-modal', close: closeBibtexModal }
+            ];
+            const detailViews = [
+                { viewId: 'bouldering-detail-view', tab: 'bouldering' },
+                { viewId: 'mountaineering-detail-view', tab: 'mountaineering' },
+                { viewId: 'car-detail-view', tab: 'cars' }
+            ];
+
+            document.addEventListener('keydown', (event) => {
+                if (event.key !== 'Escape') return;
+
+                const openModal = dismissibleModals.find(({ modalId }) =>
+                    !document.getElementById(modalId).classList.contains('hidden')
+                );
+                if (openModal) {
+                    openModal.close();
+                    return;
+                }
+
+                const openDetailView = detailViews.find(({ viewId }) =>
+                    !document.getElementById(viewId).classList.contains('hidden')
+                );
+                if (openDetailView) returnToHub(openDetailView.tab);
             });
         }
 
