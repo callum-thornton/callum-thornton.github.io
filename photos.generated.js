@@ -215,6 +215,7 @@ window.BEYOND_THE_LAB_DATA = {
       "car": "Subaru Impreza",
       "year": "2012",
       "location": "Japan",
+      "dateBought": "2012-10",
       "summary": "A simple, reliable street build balancing practical driving, responsive handling and a clean cosmetic setup.",
       "specs": {
         "engine": "2.0L boxer",
