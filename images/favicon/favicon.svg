@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)" />
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#334155" stroke-opacity="0.4" stroke-width="1.5" />
+  <g stroke="#f59e0b" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M32 54L24 49L17 43L12 36L9 29" />
+    <path d="M32 54L23 38L20 29L18 21L16 13" />
+    <path d="M32 54L30 36L30 27L30 18L30 9" />
+    <path d="M32 54L37 37L39 28L41 20L43 12" />
+    <path d="M32 54L43 40L47 33L50 26L53 19" />
+  </g>
+  <g fill="#ffffff">
+    <!-- Wrist -->
+    <circle cx="32" cy="54" r="2.8" />
+    <!-- Thumb: CMC, MCP, IP, Tip -->
+    <circle cx="24" cy="49" r="2.1" />
+    <circle cx="17" cy="43" r="2.0" />
+    <circle cx="12" cy="36" r="1.9" />
+    <circle cx="9" cy="29" r="2.1" />
+    <!-- Index: MCP, PIP, DIP, Tip -->
+    <circle cx="23" cy="38" r="2.2" />
+    <circle cx="20" cy="29" r="1.9" />
+    <circle cx="18" cy="21" r="1.9" />
+    <circle cx="16" cy="13" r="2.1" />
+    <!-- Middle: MCP, PIP, DIP, Tip -->
+    <circle cx="30" cy="36" r="2.2" />
+    <circle cx="30" cy="27" r="1.9" />
+    <circle cx="30" cy="18" r="1.9" />
+    <circle cx="30" cy="9" r="2.1" />
+    <!-- Ring: MCP, PIP, DIP, Tip -->
+    <circle cx="37" cy="37" r="2.2" />
+    <circle cx="39" cy="28" r="1.9" />
+    <circle cx="41" cy="20" r="1.9" />
+    <circle cx="43" cy="12" r="2.1" />
+    <!-- Pinky: MCP, PIP, DIP, Tip -->
+    <circle cx="43" cy="40" r="2.2" />
+    <circle cx="47" cy="33" r="1.9" />
+    <circle cx="50" cy="26" r="1.9" />
+    <circle cx="53" cy="19" r="2.1" />
+  </g>
+</svg>
