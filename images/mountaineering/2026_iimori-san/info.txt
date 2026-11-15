@@ -12,5 +12,5 @@
   "crux": "A narrow ledge section and short rocky scramble demanded careful foot placement and a calm, focused tempo.",
   "beta": "Route awareness mattered as much as fitness here. Small adjustments to foot placement kept momentum steady without rushing the more exposed sections.",
   "gear": "Trail boots, mountaineering hat, wind shell, trekking poles, GPS",
-  "thumbnail": "Summit.webp"
+  "thumbnail": "1_Summit.webp"
 }

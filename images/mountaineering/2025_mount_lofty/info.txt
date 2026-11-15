@@ -11,5 +11,5 @@
   "crux": "Smooth gradients and a brief rocky scramble demand clean route reading rather than high-risk technical climbing.",
   "beta": "This one was about efficient movement and managing effort across a longer route. The final push benefited from a simple, sustainable rhythm and a clear line of sight.",
   "gear": "Light pack, trail shoes, sunscreen, windproof layer, trekking poles",
-  "thumbnail": "Summit.webp"
+  "thumbnail": "1_Summit.webp"
 }

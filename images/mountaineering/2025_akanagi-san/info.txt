@@ -12,5 +12,5 @@
   "crux": "An exposed ridge traverse with loose scree sections and a careful line choice through the steeper terrain.",
   "beta": "The summit approached best in a measured rhythm: steady uphill movement, frequent route checks, and conservative pacing from the first switchback to the last rock band.",
   "gear": "Trail boots, trekking poles, shell layer, 1L hydration, map, headlamp",
-  "thumbnail": "Summit.webp"
+  "thumbnail": "1_Summit.webp"
 }

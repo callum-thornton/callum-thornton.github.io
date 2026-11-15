@@ -24,7 +24,7 @@ optimize_image() {
 
     for output in "${outputs[@]}"; do
         if [[ -e "$output" || -L "$output" ]]; then
-            printf 'Skipped %s: %s already exists; JPEG retained.\n' "${input#"$root"/}" "${output#"$root"/}" >&2
+            printf 'Skipped %s: %s already exists; source retained.\n' "${input#"$root"/}" "${output#"$root"/}" >&2
             return 2
         fi
     done
@@ -54,7 +54,7 @@ optimize_image() {
     done
 
     if exec 3<>/dev/tty 2>/dev/null; then
-        read -r -p "Delete source JPEG ${input#"$root"/}? [y/N] " answer <&3 || answer=''
+        read -r -p "Delete source image ${input#"$root"/}? [y/N] " answer <&3 || answer=''
         exec 3>&-
     else
         answer=''
@@ -63,7 +63,7 @@ optimize_image() {
     case "$answer" in
         [yY]|[yY][eE][sS]) ;;
         *)
-            printf 'Keeping source JPEG %s.\n' "${input#"$root"/}"
+            printf 'Keeping source image %s.\n' "${input#"$root"/}"
             return 0
             ;;
     esac
@@ -72,7 +72,7 @@ optimize_image() {
         for output in "${created_paths[@]}"; do
             rm -f -- "$output"
         done
-        printf 'Could not remove source JPEG %s; generated WebP files rolled back.\n' "${input#"$root"/}" >&2
+        printf 'Could not remove source image %s; generated WebP files rolled back.\n' "${input#"$root"/}" >&2
         return 1
     fi
 
@@ -91,7 +91,7 @@ for category in "${categories[@]}"; do
                 exit 1
             fi
         fi
-    done < <(find "$folder" -mindepth 2 -maxdepth 2 -type f \( -iname '*.jpg' -o -iname '*.jpeg' \) -print0)
+    done < <(find "$folder" -mindepth 2 -maxdepth 2 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) -print0)
 done
 
-printf 'Optimized %s JPEG image(s).\n' "$optimized_count"
+printf 'Optimized %s image(s).\n' "$optimized_count"

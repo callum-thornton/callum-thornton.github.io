@@ -12,5 +12,5 @@
   "crux": "The crux comes at the upper mountain where the wind and visibility sharpen the route choice and the pace.",
   "beta": "The best approach was to stay light and deliberate, avoid overcommitting on the ridge and keep a measured rhythm through the final ascent.",
   "gear": "Insulated shell, mountaineering socks, beanie, trekking poles, emergency bivy",
-  "thumbnail": "Summit.webp"
+  "thumbnail": "1_Summit.webp"
 }

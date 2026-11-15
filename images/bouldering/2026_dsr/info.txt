@@ -10,5 +10,5 @@
   "crux": "The crux sits in a compressed sequence where high tension and a calm top-out rhythm are essential.",
   "beta": "The key to the problem was staying quiet in the hips and loading the feet before the final reach. The movement is efficient, but it rewards patience and precise timing.",
   "gear": "Evolv Shaman, 50mm crash pad, climbing tape, finger trainer, chalk",
-  "thumbnail": "Inside.webp"
+  "thumbnail": "1_Inside.webp"
 }

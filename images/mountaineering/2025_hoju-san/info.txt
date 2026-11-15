@@ -12,5 +12,5 @@
   "crux": "The climb becomes noticeably steeper near the upper shoulder where traction and pace matter more than sheer effort.",
   "beta": "The route was best handled by keeping cadence light and watching for roots and wet stone. A steady effort through the forest made the final section feel controlled rather than forced.",
   "gear": "Trail runners, fleece midlayer, hydration pack, trekking poles, first-aid kit",
-  "thumbnail": "Summit.webp"
+  "thumbnail": "1_Summit.webp"
 }

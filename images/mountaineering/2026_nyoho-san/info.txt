@@ -12,5 +12,5 @@
   "crux": "The upper approach is a long, sustained climb where pacing matters more than brief bursts of speed.",
   "beta": "This route was best managed with efficient downhill recovery, careful hydration and a stable rhythm through the exposed ridge sections.",
   "gear": "Insulated layer, glacier glasses, trekking poles, microspikes, emergency ration",
-  "thumbnail": "Summit.webp"
+  "thumbnail": "1_Summit.webp"
 }

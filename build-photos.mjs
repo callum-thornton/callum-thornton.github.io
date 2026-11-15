@@ -36,9 +36,9 @@ async function getPhotos(folder) {
     }
 
     return [...photosByName.values()]
-        .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }))
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }))
         .map(filename => ({
-            caption: path.basename(filename, path.extname(filename)).replace(/_/g, ' '),
+            caption: path.basename(filename, path.extname(filename)).replace(/^\d+_/, '').replace(/_/g, ' '),
             url: path.posix.join(path.relative(root, folder).split(path.sep).join('/'), filename)
         }));
 }

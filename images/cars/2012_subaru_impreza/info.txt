@@ -36,5 +36,5 @@
       "detail": "A small set of improvements focused on alignment, cleanliness and the feel of the car without overcomplicating the platform."
     }
   ],
-  "thumbnail": "Current.webp"
+  "thumbnail": "1_Current.webp"
 }

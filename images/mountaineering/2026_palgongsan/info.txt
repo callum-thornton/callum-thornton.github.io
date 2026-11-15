@@ -12,5 +12,5 @@
   "crux": "The final ridge section demands focus on footwork and route choice while staying efficient through a broad but exposed traverse.",
   "beta": "The route rewards patience more than intensity. The climb is steady, but the line of travel and pace make the difference between a smooth summit and a rough push.",
   "gear": "Trail boots, shell jacket, extra layer, hiking poles, water bottle",
-  "thumbnail": "Summit.webp"
+  "thumbnail": "1_Summit.webp"
 }
