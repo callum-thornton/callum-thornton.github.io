@@ -1642,6 +1642,7 @@
         }
 
         let activeHubTab = 'mountaineering';
+        let returnToHubImmediately = false;
 
         // INITIALIZATION & EVENT LISTENERS
         document.addEventListener('DOMContentLoaded', async () => {
@@ -1756,9 +1757,14 @@
                 mainView.classList.remove('hidden');
                 if (hash && hash !== '#about') {
                     const targetEl = document.querySelector(hash);
-                    if (targetEl) targetEl.scrollIntoView({ behavior: 'smooth' });
+                    if (targetEl) {
+                        targetEl.scrollIntoView({
+                            behavior: returnToHubImmediately && hash === '#beyond-the-lab' ? 'instant' : 'smooth'
+                        });
+                    }
                 }
             }
+            returnToHubImmediately = false;
         }
 
         function navigateTo(hash) {
@@ -1767,6 +1773,7 @@
 
         function returnToHub(tabName) {
             switchHubTab(tabName);
+            returnToHubImmediately = true;
             navigateTo('#beyond-the-lab');
         }
 
