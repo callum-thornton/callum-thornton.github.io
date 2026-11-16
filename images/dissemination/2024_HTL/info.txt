@@ -1,0 +1,26 @@
+{
+  "id": "2024_HTL",
+  "title": "Quantification of Finger Grasps During Activities of Daily Life Using Convolutional Neural Networks",
+  "authors": "Mario P. Trejo Ramírez, Callum J. Thornton, Neil D. Evans, Michael J. Chappell",
+  "venue": "Healthcare Technology Letters, 11(5), pp. 259–270",
+  "type": "journal",
+  "typeLabel": "Journal Article",
+  "presentationLabel": null,
+  "year": 2024,
+  "date": "Oct. 2024",
+  "presentation": false,
+  "poster": false,
+  "summary": "",
+  "bibtex": "@article{trejo2024quantification,\n  title={Quantification of finger grasps during activities of daily life using convolutional neural networks: A pilot study},\n  author={Trejo Ram{\\'\\i}rez, Mario Alberto and Thornton, Callum John and Evans, Neil D and Chappell, Michael J},\n  journal={Healthcare Technology Letters},\n  volume={11},\n  number={5},\n  pages={259--270},\n  year={2024},\n  doi={10.1049/htl2.12080}\n}",
+  "image": "2024_HTL-optimized.webp",
+  "thumbnail": "2024_HTL-thumb.webp",
+  "imageAlt": "CNN grasp classification architecture figure",
+  "previewTitle": "Healthcare Technology Letters (2024)",
+  "documents": [
+    {
+      "label": "Paper",
+      "url": "https://doi.org/10.1049/htl2.12080"
+    }
+  ],
+  "order": 7
+}

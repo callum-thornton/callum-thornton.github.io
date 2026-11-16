@@ -1,0 +1,26 @@
+{
+  "id": "2023_thesis",
+  "title": "Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology",
+  "authors": "Callum J. Thornton",
+  "venue": "Doctoral Dissertation, School of Engineering, University of Warwick",
+  "type": "thesis",
+  "typeLabel": "Thesis",
+  "presentationLabel": null,
+  "year": 2023,
+  "date": "Jan. 2023",
+  "presentation": false,
+  "poster": false,
+  "summary": "",
+  "bibtex": "@phdthesis{thornton2023modelling,\n  title={Modelling and analysis of hand motion in everyday activities with application to prosthetic hand technology},\n  author={Thornton, Callum John},\n  year={2023},\n  school={University of Warwick}\n}",
+  "image": "2023_thesis-optimized.webp",
+  "thumbnail": "2023_thesis-thumb.webp",
+  "imageAlt": "Preview of the 2023 University of Warwick thesis",
+  "previewTitle": "Thesis (University of Warwick, 2023)",
+  "documents": [
+    {
+      "label": "Thesis",
+      "url": "https://wrap.warwick.ac.uk/id/eprint/176869/"
+    }
+  ],
+  "order": 8
+}

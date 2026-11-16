@@ -285,3 +285,369 @@ window.BEYOND_THE_LAB_DATA = {
     }
   ]
 };
+window.DISSEMINATION_DATA = [
+  {
+    "id": "2026_APCMBE_2",
+    "title": "Evaluating Noise Tolerance Limits for Single-Lead Wearable ECG Heart Rate Tracking",
+    "authors": "Callum J. Thornton, Cecilia A. Callejas Pastor, Chien ND, Thomas Svensson, Akiko Kishi Svensson",
+    "venue": "APCMBE",
+    "type": "presentation",
+    "typeLabel": "Conference Presentation",
+    "presentationLabel": "Poster Presentation",
+    "year": 2026,
+    "date": "Nov. 2026",
+    "presentation": false,
+    "poster": true,
+    "summary": "",
+    "bibtex": "@misc{thornton2026evaluating,\n  title={Evaluating Noise Tolerance Limits for Single-Lead Wearable ECG Heart Rate Tracking},\n  author={Thornton, Callum John and Callejas Pastor, Cecilia A. and Chien, ND and Svensson, Thomas and Kishi Svensson, Akiko},\n  howpublished={APCMBE 2026},\n  month={nov},\n  year={2026}\n}",
+    "image": "images/dissemination/2026_APCMBE_2/2026_APCMBE_2-optimized.webp",
+    "thumbnail": "images/dissemination/2026_APCMBE_2/2026_APCMBE_2-thumb.webp",
+    "imageAlt": "Mean absolute HRV error across noise frequencies and SNR levels",
+    "previewTitle": "APCMBE 2026 Poster Figure",
+    "documents": [
+      {
+        "label": "Poster",
+        "url": "images/dissemination/2026_APCMBE_2/2026_APCMBE_2.pdf"
+      }
+    ],
+    "order": 0
+  },
+  {
+    "id": "2026_APCMBE_1",
+    "title": "Updating Our Understanding of How We Use Our Hands for the Modern Day: A Feasibility Study",
+    "authors": "Callum J. Thornton",
+    "venue": "APCMBE",
+    "type": "presentation",
+    "typeLabel": "Conference Presentation",
+    "presentationLabel": "Poster Presentation",
+    "year": 2026,
+    "date": "Nov. 2026",
+    "presentation": false,
+    "poster": true,
+    "summary": "",
+    "bibtex": "@misc{thornton2026updating,\n  title={Updating Our Understanding of How We Use Our Hands for the Modern Day: A Feasibility Study},\n  author={Thornton, Callum John},\n  howpublished={APCMBE 2026},\n  month={nov},\n  year={2026}\n}",
+    "image": "images/dissemination/2026_APCMBE_1/2026_APCMBE_1-optimized.webp",
+    "thumbnail": "images/dissemination/2026_APCMBE_1/2026_APCMBE_1-thumb.webp",
+    "imageAlt": "Illustration of people using their hands to interact with technology",
+    "previewTitle": "APCMBE 2026 Poster Figure",
+    "documents": [
+      {
+        "label": "Poster",
+        "url": "images/dissemination/2026_APCMBE_1/2026_APCMBE_1.pdf"
+      }
+    ],
+    "order": 1
+  },
+  {
+    "id": "2026_wearable-sleep",
+    "title": "Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over",
+    "authors": "Cecilia A. Callejas Pastor, Callum J. Thornton, Chien ND, Thomas Svensson, Akiko Kishi Svensson",
+    "venue": "APCMBE",
+    "type": "presentation",
+    "typeLabel": "Conference Presentation",
+    "presentationLabel": "Poster Presentation",
+    "year": 2026,
+    "date": "Nov. 2026",
+    "presentation": false,
+    "poster": true,
+    "summary": "",
+    "bibtex": "@misc{callejas2026wearable,\n  title={Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over},\n  author={Callejas Pastor, Cecilia A. and Thornton, Callum John and Chien, ND and Svensson, Thomas and Kishi Svensson, Akiko},\n  howpublished={APCMBE 2026},\n  month={nov},\n  year={2026}\n}",
+    "image": "images/dissemination/2026_wearable-sleep/matrix-placeholder.webp",
+    "thumbnail": "images/dissemination/2026_wearable-sleep/matrix-placeholder.webp",
+    "imageAlt": "Poster unavailable",
+    "previewTitle": "Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over",
+    "documents": [],
+    "order": 2
+  },
+  {
+    "id": "2026_HCI",
+    "title": "A Preliminary Study of the Optimal Camera Locations for Markerless Motion Capture in Construction Machinery Cabins",
+    "authors": "Callum J. Thornton, Mitsunori Tada, Tsubasa Maruyama",
+    "venue": "International Conference on Human-Computer Interaction (HCII), pp. 636–647",
+    "type": "conference",
+    "typeLabel": "Conference Paper",
+    "presentationLabel": "Poster Presentation",
+    "year": 2026,
+    "date": "Jul. 2026",
+    "presentation": false,
+    "poster": true,
+    "summary": "Investigates camera layout optimization inside heavy equipment cabins to minimize occlusions and improve pose tracking during complex operational tasks.",
+    "bibtex": "@inproceedings{thornton2026preliminary,\n  title={A Preliminary Study of the Optimal Camera Locations for Markerless Motion Capture in Construction Machinery Cabins},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={International Conference on Human-Computer Interaction (HCII)},\n  pages={636--647},\n  month={jul},\n  year={2026},\n  publisher={Springer}\n}",
+    "image": "images/dissemination/2026_HCI/2026_HCI-optimized.webp",
+    "thumbnail": "images/dissemination/2026_HCI/2026_HCI-thumb.webp",
+    "imageAlt": "3D comparison of markerless motion capture camera locations",
+    "previewTitle": "HCII 2026 Figure",
+    "documents": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1007/978-3-032-30819-1_67"
+      },
+      {
+        "label": "Poster",
+        "url": "images/dissemination/2026_HCI/2026_HCI.pdf"
+      }
+    ],
+    "order": 3
+  },
+  {
+    "id": "2025_SMC",
+    "title": "Generating a Synthetic Dataset for Hand Pose Estimation Training",
+    "authors": "Callum J. Thornton, Mitsunori Tada, Tsubasa Maruyama",
+    "venue": "IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "type": "conference",
+    "typeLabel": "Conference Paper",
+    "presentationLabel": "Oral Presentation",
+    "year": 2025,
+    "date": "Oct. 2025",
+    "presentation": true,
+    "poster": false,
+    "summary": "Introduces a synthetic rendering pipeline for generating labeled 3D hand poses with occlusions, accelerating model generalization in unstructured environments.",
+    "bibtex": "@inproceedings{thornton2025synthetic,\n  title={Generating a Synthetic Dataset for Hand Pose Estimation Training},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={IEEE International Conference on Systems, Man, and Cybernetics (SMC)},\n  month={oct},\n  year={2025},\n  organization={IEEE}\n}",
+    "image": "images/dissemination/2025_SMC/2025_SMC-optimized.webp",
+    "thumbnail": "images/dissemination/2025_SMC/2025_SMC-thumb.webp",
+    "imageAlt": "Figure from the 2025 IEEE SMC paper",
+    "previewTitle": "IEEE SMC 2025 Figure",
+    "documents": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/smc58881.2025.11343112"
+      }
+    ],
+    "order": 4
+  },
+  {
+    "id": "2025_IUPESM",
+    "title": "Utilising Optimisation Techniques for Accurate and Robust Markerless Motion Capture Reconstructions",
+    "authors": "Callum J. Thornton, Mitsunori Tada, Tsubasa Maruyama",
+    "venue": "IUPESM World Congress on Medical Physics and Biomedical Engineering, pp. 515–533",
+    "type": "conference",
+    "typeLabel": "Conference Paper",
+    "presentationLabel": "Oral Presentation",
+    "year": 2025,
+    "date": "Oct. 2025",
+    "presentation": true,
+    "poster": false,
+    "summary": "",
+    "bibtex": "@inproceedings{thornton2025utilising,\n  title={Utilising optimisation techniques for accurate and robust markerless motion capture reconstructions},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={IUPESM World Congress on Medical Physics and Biomedical Engineering},\n  pages={515--533},\n  year={2025},\n  publisher={Springer}\n}",
+    "image": "images/dissemination/2025_IUPESM/2025_IUPESM-optimized.webp",
+    "thumbnail": "images/dissemination/2025_IUPESM/2025_IUPESM-thumb.webp",
+    "imageAlt": "Figure from the 2025 IUPESM paper",
+    "previewTitle": "IUPESM 2025 Figure",
+    "documents": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1007/978-3-032-20287-1_46"
+      }
+    ],
+    "order": 5
+  },
+  {
+    "id": "2024_com-met",
+    "title": "Portable Markerless Hand Motion Capture System for Determining the Grasps Performed in Activities of Daily Living",
+    "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+    "venue": "Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization",
+    "type": "journal",
+    "typeLabel": "Journal Article",
+    "presentationLabel": null,
+    "year": 2024,
+    "date": "Jan. 2024",
+    "presentation": false,
+    "poster": false,
+    "summary": "",
+    "bibtex": "@article{thornton2024portable,\n  title={Portable markerless hand motion capture system for determining the grasps performed in activities of daily living},\n  author={Thornton, Callum John and Chappell, Michael J and Evans, Neil D and Hardwicke, Joseph},\n  journal={Computer Methods in Biomechanics and Biomedical Engineering: Imaging \\& Visualization},\n  volume={12},\n  number={1},\n  year={2024},\n  publisher={Taylor \\& Francis}\n}",
+    "image": "images/dissemination/2024_com-met/2024_com-met-optimized.webp",
+    "thumbnail": "images/dissemination/2024_com-met/2024_com-met-thumb.webp",
+    "imageAlt": "Figure from the 2024 CMBBE paper",
+    "previewTitle": "CMBBE: Imaging & Visualization (2024)",
+    "documents": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1080/21681163.2023.2296625"
+      }
+    ],
+    "order": 6
+  },
+  {
+    "id": "2024_HTL",
+    "title": "Quantification of Finger Grasps During Activities of Daily Life Using Convolutional Neural Networks",
+    "authors": "Mario P. Trejo Ramírez, Callum J. Thornton, Neil D. Evans, Michael J. Chappell",
+    "venue": "Healthcare Technology Letters, 11(5), pp. 259–270",
+    "type": "journal",
+    "typeLabel": "Journal Article",
+    "presentationLabel": null,
+    "year": 2024,
+    "date": "Oct. 2024",
+    "presentation": false,
+    "poster": false,
+    "summary": "",
+    "bibtex": "@article{trejo2024quantification,\n  title={Quantification of finger grasps during activities of daily life using convolutional neural networks: A pilot study},\n  author={Trejo Ram{\\'\\i}rez, Mario Alberto and Thornton, Callum John and Evans, Neil D and Chappell, Michael J},\n  journal={Healthcare Technology Letters},\n  volume={11},\n  number={5},\n  pages={259--270},\n  year={2024},\n  doi={10.1049/htl2.12080}\n}",
+    "image": "images/dissemination/2024_HTL/2024_HTL-optimized.webp",
+    "thumbnail": "images/dissemination/2024_HTL/2024_HTL-thumb.webp",
+    "imageAlt": "CNN grasp classification architecture figure",
+    "previewTitle": "Healthcare Technology Letters (2024)",
+    "documents": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1049/htl2.12080"
+      }
+    ],
+    "order": 7
+  },
+  {
+    "id": "2024_symposium",
+    "title": "Pose Estimator Training with Synthetic Data",
+    "authors": "Callum J. Thornton",
+    "venue": "AIST DHRT Symposium",
+    "type": "presentation",
+    "typeLabel": "Conference Presentation",
+    "presentationLabel": "Poster Presentation",
+    "year": 2024,
+    "date": "Dec. 2024",
+    "presentation": false,
+    "poster": true,
+    "summary": "",
+    "bibtex": "@misc{thornton2024dhrt,\n  title={Pose Estimator Training with Synthetic Data},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  howpublished={AIST DHRT Symposium},\n  year={2024}\n}",
+    "image": "images/dissemination/2024_symposium/2024_symposium-optimized.webp",
+    "thumbnail": "images/dissemination/2024_symposium/2024_symposium-thumb.webp",
+    "imageAlt": "AIST DHRT 2024 poster about pose estimator training with synthetic data",
+    "previewTitle": "AIST DHRT Symposium 2024 Poster",
+    "documents": [],
+    "order": 13
+  },
+  {
+    "id": "2023_thesis",
+    "title": "Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology",
+    "authors": "Callum J. Thornton",
+    "venue": "Doctoral Dissertation, School of Engineering, University of Warwick",
+    "type": "thesis",
+    "typeLabel": "Thesis",
+    "presentationLabel": null,
+    "year": 2023,
+    "date": "Jan. 2023",
+    "presentation": false,
+    "poster": false,
+    "summary": "",
+    "bibtex": "@phdthesis{thornton2023modelling,\n  title={Modelling and analysis of hand motion in everyday activities with application to prosthetic hand technology},\n  author={Thornton, Callum John},\n  year={2023},\n  school={University of Warwick}\n}",
+    "image": "images/dissemination/2023_thesis/2023_thesis-optimized.webp",
+    "thumbnail": "images/dissemination/2023_thesis/2023_thesis-thumb.webp",
+    "imageAlt": "Preview of the 2023 University of Warwick thesis",
+    "previewTitle": "Thesis (University of Warwick, 2023)",
+    "documents": [
+      {
+        "label": "Thesis",
+        "url": "https://wrap.warwick.ac.uk/id/eprint/176869/"
+      }
+    ],
+    "order": 8
+  },
+  {
+    "id": "2022_IUPESM",
+    "title": "Validation and Clinical Applications of the Leap Motion Controller",
+    "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+    "venue": "IUPESM World Congress on Medical Physics and Biomedical Engineering",
+    "type": "presentation",
+    "typeLabel": "Conference Presentation",
+    "presentationLabel": "Oral Presentation",
+    "year": 2022,
+    "date": "Jun. 2022",
+    "presentation": false,
+    "poster": false,
+    "summary": "",
+    "bibtex": "@misc{thornton2022validation,\n  title={Validation and Clinical Applications of the Leap Motion Controller},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={IUPESM World Congress on Medical Physics and Biomedical Engineering},\n  month={jun},\n  year={2022}\n}",
+    "image": "images/dissemination/2022_IUPESM/2022_IUPESM-optimized.webp",
+    "thumbnail": "images/dissemination/2022_IUPESM/2022_IUPESM-thumb.webp",
+    "imageAlt": "IUPESM 2022 presentation slide",
+    "previewTitle": "IUPESM WC2022 Presentation",
+    "documents": [],
+    "order": 9
+  },
+  {
+    "id": "2022_ICPS",
+    "title": "Predicting Muscle Excitations of the Hand from Kinematic Data",
+    "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+    "venue": "IEEE International Conference on Industrial Cyber-Physical Systems (ICPS)",
+    "type": "conference",
+    "typeLabel": "Conference Paper",
+    "presentationLabel": "Oral Presentation",
+    "year": 2022,
+    "date": "2022",
+    "presentation": true,
+    "poster": false,
+    "summary": "",
+    "bibtex": "@inproceedings{thornton2022predicting,\n  title={Predicting Muscle Excitations of the Hand from Kinematic Data},\n  author={Thornton, Callum John and Chappell, Michael J and Evans, Neil D and Hardwicke, Joseph},\n  booktitle={2022 IEEE 5th International Conference on Industrial Cyber-Physical Systems (ICPS)},\n  year={2022},\n  organization={IEEE}\n}",
+    "image": "images/dissemination/2022_ICPS/2022_ICPS-optimized.webp",
+    "thumbnail": "images/dissemination/2022_ICPS/2022_ICPS-thumb.webp",
+    "imageAlt": "Figure from the 2022 IEEE ICPS paper",
+    "previewTitle": "IEEE ICPS 2022 Figure",
+    "documents": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/icps51978.2022.9816979"
+      }
+    ],
+    "order": 10
+  },
+  {
+    "id": "2021_biomedeng",
+    "title": "Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology",
+    "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+    "venue": "BioMedEng",
+    "type": "presentation",
+    "typeLabel": "Conference Presentation",
+    "presentationLabel": "Oral Presentation",
+    "year": 2021,
+    "date": "Jan. 2021",
+    "presentation": false,
+    "poster": false,
+    "summary": "",
+    "bibtex": "@misc{thornton2021modelling,\n  title={Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={BioMedEng21},\n  month={jan},\n  year={2021}\n}",
+    "image": "images/dissemination/2021_biomedeng/2021_biomedeng-optimized.webp",
+    "thumbnail": "images/dissemination/2021_biomedeng/2021_biomedeng-thumb.webp",
+    "imageAlt": "BioMedEng 2021 presentation slide",
+    "previewTitle": "BioMedEng21 Presentation",
+    "documents": [],
+    "order": 11
+  },
+  {
+    "id": "2019_symposium",
+    "title": "Modelling and Analysis of Hand Motion in Everyday Activities",
+    "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+    "venue": "School of Engineering Postgraduate Symposium",
+    "type": "presentation",
+    "typeLabel": "Conference Presentation",
+    "presentationLabel": "Poster Presentation",
+    "year": 2019,
+    "date": "Mar. 2019",
+    "presentation": false,
+    "poster": true,
+    "summary": "",
+    "bibtex": "@misc{thornton2019postgrad,\n  title={Modelling and Analysis of Hand Motion in Everyday Activities},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={School of Engineering 7th Postgraduate Symposium, University of Warwick},\n  year={2019}\n}",
+    "image": "images/dissemination/2019_symposium/2019_symposium-optimized.webp",
+    "thumbnail": "images/dissemination/2019_symposium/2019_symposium-thumb.webp",
+    "imageAlt": "Hand motion illustration from the 2019 School of Engineering Postgraduate Symposium poster",
+    "previewTitle": "School of Engineering Postgraduate Symposium 2019 Poster",
+    "documents": [],
+    "order": 14
+  },
+  {
+    "id": "2018_gest-and-tech",
+    "title": "Methods for Capturing Long-Term Natural Hand Motions",
+    "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+    "venue": "Workshop: Gesture & Technology",
+    "type": "presentation",
+    "typeLabel": "Conference Presentation",
+    "presentationLabel": "Invited Speaker",
+    "year": 2018,
+    "date": "Jun. 2018",
+    "presentation": false,
+    "poster": false,
+    "summary": "",
+    "bibtex": "@misc{thornton2018methods,\n  title={Methods for Capturing Long-Term Natural Hand Motions},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={Workshop: Gesture \\& Technology},\n  note={Invited Speaker},\n  month={jun},\n  year={2018}\n}",
+    "image": "images/dissemination/2018_gest-and-tech/2018_gest-and-tech-optimized.webp",
+    "thumbnail": "images/dissemination/2018_gest-and-tech/2018_gest-and-tech-thumb.webp",
+    "imageAlt": "Gesture and Technology 2018 presentation slide",
+    "previewTitle": "Workshop: Gesture & Technology (2018)",
+    "documents": [],
+    "order": 12
+  }
+];

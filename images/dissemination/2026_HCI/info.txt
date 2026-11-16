@@ -1,0 +1,30 @@
+{
+  "id": "2026_HCI",
+  "title": "A Preliminary Study of the Optimal Camera Locations for Markerless Motion Capture in Construction Machinery Cabins",
+  "authors": "Callum J. Thornton, Mitsunori Tada, Tsubasa Maruyama",
+  "venue": "International Conference on Human-Computer Interaction (HCII), pp. 636–647",
+  "type": "conference",
+  "typeLabel": "Conference Paper",
+  "presentationLabel": "Poster Presentation",
+  "year": 2026,
+  "date": "Jul. 2026",
+  "presentation": false,
+  "poster": true,
+  "summary": "Investigates camera layout optimization inside heavy equipment cabins to minimize occlusions and improve pose tracking during complex operational tasks.",
+  "bibtex": "@inproceedings{thornton2026preliminary,\n  title={A Preliminary Study of the Optimal Camera Locations for Markerless Motion Capture in Construction Machinery Cabins},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={International Conference on Human-Computer Interaction (HCII)},\n  pages={636--647},\n  month={jul},\n  year={2026},\n  publisher={Springer}\n}",
+  "image": "2026_HCI-optimized.webp",
+  "thumbnail": "2026_HCI-thumb.webp",
+  "imageAlt": "3D comparison of markerless motion capture camera locations",
+  "previewTitle": "HCII 2026 Figure",
+  "documents": [
+    {
+      "label": "Paper",
+      "url": "https://doi.org/10.1007/978-3-032-30819-1_67"
+    },
+    {
+      "label": "Poster",
+      "url": "2026_HCI.pdf"
+    }
+  ],
+  "order": 3
+}

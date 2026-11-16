@@ -1,0 +1,21 @@
+{
+  "id": "2022_IUPESM",
+  "title": "Validation and Clinical Applications of the Leap Motion Controller",
+  "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+  "venue": "IUPESM World Congress on Medical Physics and Biomedical Engineering",
+  "type": "presentation",
+  "typeLabel": "Conference Presentation",
+  "presentationLabel": "Oral Presentation",
+  "year": 2022,
+  "date": "Jun. 2022",
+  "presentation": false,
+  "poster": false,
+  "summary": "",
+  "bibtex": "@misc{thornton2022validation,\n  title={Validation and Clinical Applications of the Leap Motion Controller},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={IUPESM World Congress on Medical Physics and Biomedical Engineering},\n  month={jun},\n  year={2022}\n}",
+  "image": "2022_IUPESM-optimized.webp",
+  "thumbnail": "2022_IUPESM-thumb.webp",
+  "imageAlt": "IUPESM 2022 presentation slide",
+  "previewTitle": "IUPESM WC2022 Presentation",
+  "documents": [],
+  "order": 9
+}

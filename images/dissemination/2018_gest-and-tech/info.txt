@@ -1,0 +1,21 @@
+{
+  "id": "2018_gest-and-tech",
+  "title": "Methods for Capturing Long-Term Natural Hand Motions",
+  "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+  "venue": "Workshop: Gesture & Technology",
+  "type": "presentation",
+  "typeLabel": "Conference Presentation",
+  "presentationLabel": "Invited Speaker",
+  "year": 2018,
+  "date": "Jun. 2018",
+  "presentation": false,
+  "poster": false,
+  "summary": "",
+  "bibtex": "@misc{thornton2018methods,\n  title={Methods for Capturing Long-Term Natural Hand Motions},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={Workshop: Gesture \\& Technology},\n  note={Invited Speaker},\n  month={jun},\n  year={2018}\n}",
+  "image": "2018_gest-and-tech-optimized.webp",
+  "thumbnail": "2018_gest-and-tech-thumb.webp",
+  "imageAlt": "Gesture and Technology 2018 presentation slide",
+  "previewTitle": "Workshop: Gesture & Technology (2018)",
+  "documents": [],
+  "order": 12
+}

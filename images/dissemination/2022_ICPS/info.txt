@@ -1,0 +1,26 @@
+{
+  "id": "2022_ICPS",
+  "title": "Predicting Muscle Excitations of the Hand from Kinematic Data",
+  "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+  "venue": "IEEE International Conference on Industrial Cyber-Physical Systems (ICPS)",
+  "type": "conference",
+  "typeLabel": "Conference Paper",
+  "presentationLabel": "Oral Presentation",
+  "year": 2022,
+  "date": "2022",
+  "presentation": true,
+  "poster": false,
+  "summary": "",
+  "bibtex": "@inproceedings{thornton2022predicting,\n  title={Predicting Muscle Excitations of the Hand from Kinematic Data},\n  author={Thornton, Callum John and Chappell, Michael J and Evans, Neil D and Hardwicke, Joseph},\n  booktitle={2022 IEEE 5th International Conference on Industrial Cyber-Physical Systems (ICPS)},\n  year={2022},\n  organization={IEEE}\n}",
+  "image": "2022_ICPS-optimized.webp",
+  "thumbnail": "2022_ICPS-thumb.webp",
+  "imageAlt": "Figure from the 2022 IEEE ICPS paper",
+  "previewTitle": "IEEE ICPS 2022 Figure",
+  "documents": [
+    {
+      "label": "Paper",
+      "url": "https://doi.org/10.1109/icps51978.2022.9816979"
+    }
+  ],
+  "order": 10
+}

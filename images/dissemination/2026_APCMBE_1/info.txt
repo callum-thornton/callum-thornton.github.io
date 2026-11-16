@@ -1,0 +1,26 @@
+{
+  "id": "2026_APCMBE_1",
+  "title": "Updating Our Understanding of How We Use Our Hands for the Modern Day: A Feasibility Study",
+  "authors": "Callum J. Thornton",
+  "venue": "APCMBE",
+  "type": "presentation",
+  "typeLabel": "Conference Presentation",
+  "presentationLabel": "Poster Presentation",
+  "year": 2026,
+  "date": "Nov. 2026",
+  "presentation": false,
+  "poster": true,
+  "summary": "",
+  "bibtex": "@misc{thornton2026updating,\n  title={Updating Our Understanding of How We Use Our Hands for the Modern Day: A Feasibility Study},\n  author={Thornton, Callum John},\n  howpublished={APCMBE 2026},\n  month={nov},\n  year={2026}\n}",
+  "image": "2026_APCMBE_1-optimized.webp",
+  "thumbnail": "2026_APCMBE_1-thumb.webp",
+  "imageAlt": "Illustration of people using their hands to interact with technology",
+  "previewTitle": "APCMBE 2026 Poster Figure",
+  "documents": [
+    {
+      "label": "Poster",
+      "url": "2026_APCMBE_1.pdf"
+    }
+  ],
+  "order": 1
+}

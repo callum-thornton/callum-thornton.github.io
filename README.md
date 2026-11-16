@@ -6,7 +6,7 @@
 2. In the repository, open **Settings → Pages** and set the publishing source to **GitHub Actions**.
 3. Push to the deployment branch, or manually run the **Deploy GitHub Pages** workflow from the **Actions** tab.
 
-The workflow builds the site into `_site`, generates the Beyond the Lab photo list, and deploys it. The site homepage is published as `index.html`.
+The workflow builds the site into `_site`, generates the Beyond the Lab photo list and Dissemination entries, and deploys it. The site homepage is published as `index.html`.
 
 ## Updating Beyond the Lab
 
@@ -19,3 +19,10 @@ The workflow builds the site into `_site`, generates the Beyond the Lab photo li
 - Push the changes to GitHub; the workflow rebuilds and deploys the site automatically.
 
 The `images/_pictures_to_convert/`, `.venv/`, and macOS metadata files are excluded from Git or the published site.
+
+## Updating Dissemination
+
+- Each dissemination item lives in its own folder under `images/dissemination/` and is discovered during the site build when its folder contains an `info.txt` file.
+- `info.txt` is JSON. Set the item's `title`, `authors`, `venue`, `type`, `typeLabel`, `year`, `date`, `bibtex`, `image`, and `thumbnail`. Use `conference`, `journal`, `presentation`, or `thesis` for `type`; image and thumbnail values are filenames in the same folder.
+- Optional fields include `presentationLabel`, boolean `presentation` and `poster` flags, `summary`, `previewTitle`, `imageAlt`, and `order` (for ordering entries within a year). Add downloadable files to the item folder and list them in `documents` as `{ "label": "Poster", "url": "poster.pdf" }`. External document URLs are also supported.
+- To add an item, create its folder, add `info.txt`, and include the named image, thumbnail, and any local documents. Run `npm run build`; the publication card and year filter are generated automatically, with no index-file changes needed.

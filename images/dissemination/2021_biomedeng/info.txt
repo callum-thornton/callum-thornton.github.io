@@ -1,0 +1,21 @@
+{
+  "id": "2021_biomedeng",
+  "title": "Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology",
+  "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+  "venue": "BioMedEng",
+  "type": "presentation",
+  "typeLabel": "Conference Presentation",
+  "presentationLabel": "Oral Presentation",
+  "year": 2021,
+  "date": "Jan. 2021",
+  "presentation": false,
+  "poster": false,
+  "summary": "",
+  "bibtex": "@misc{thornton2021modelling,\n  title={Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={BioMedEng21},\n  month={jan},\n  year={2021}\n}",
+  "image": "2021_biomedeng-optimized.webp",
+  "thumbnail": "2021_biomedeng-thumb.webp",
+  "imageAlt": "BioMedEng 2021 presentation slide",
+  "previewTitle": "BioMedEng21 Presentation",
+  "documents": [],
+  "order": 11
+}

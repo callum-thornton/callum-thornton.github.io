@@ -1,0 +1,26 @@
+{
+  "id": "2024_com-met",
+  "title": "Portable Markerless Hand Motion Capture System for Determining the Grasps Performed in Activities of Daily Living",
+  "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+  "venue": "Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization",
+  "type": "journal",
+  "typeLabel": "Journal Article",
+  "presentationLabel": null,
+  "year": 2024,
+  "date": "Jan. 2024",
+  "presentation": false,
+  "poster": false,
+  "summary": "",
+  "bibtex": "@article{thornton2024portable,\n  title={Portable markerless hand motion capture system for determining the grasps performed in activities of daily living},\n  author={Thornton, Callum John and Chappell, Michael J and Evans, Neil D and Hardwicke, Joseph},\n  journal={Computer Methods in Biomechanics and Biomedical Engineering: Imaging \\& Visualization},\n  volume={12},\n  number={1},\n  year={2024},\n  publisher={Taylor \\& Francis}\n}",
+  "image": "2024_com-met-optimized.webp",
+  "thumbnail": "2024_com-met-thumb.webp",
+  "imageAlt": "Figure from the 2024 CMBBE paper",
+  "previewTitle": "CMBBE: Imaging & Visualization (2024)",
+  "documents": [
+    {
+      "label": "Paper",
+      "url": "https://doi.org/10.1080/21681163.2023.2296625"
+    }
+  ],
+  "order": 6
+}

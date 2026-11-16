@@ -1,0 +1,21 @@
+{
+  "id": "2024_symposium",
+  "title": "Pose Estimator Training with Synthetic Data",
+  "authors": "Callum J. Thornton",
+  "venue": "AIST DHRT Symposium",
+  "type": "presentation",
+  "typeLabel": "Conference Presentation",
+  "presentationLabel": "Poster Presentation",
+  "year": 2024,
+  "date": "Dec. 2024",
+  "presentation": false,
+  "poster": true,
+  "summary": "",
+  "bibtex": "@misc{thornton2024dhrt,\n  title={Pose Estimator Training with Synthetic Data},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  howpublished={AIST DHRT Symposium},\n  year={2024}\n}",
+  "image": "2024_symposium-optimized.webp",
+  "thumbnail": "2024_symposium-thumb.webp",
+  "imageAlt": "AIST DHRT 2024 poster about pose estimator training with synthetic data",
+  "previewTitle": "AIST DHRT Symposium 2024 Poster",
+  "documents": [],
+  "order": 13
+}

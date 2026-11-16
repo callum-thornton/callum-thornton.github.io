@@ -1,0 +1,21 @@
+{
+  "id": "2019_symposium",
+  "title": "Modelling and Analysis of Hand Motion in Everyday Activities",
+  "authors": "Callum J. Thornton, Michael J. Chappell, Neil D. Evans, Joseph Hardwicke",
+  "venue": "School of Engineering Postgraduate Symposium",
+  "type": "presentation",
+  "typeLabel": "Conference Presentation",
+  "presentationLabel": "Poster Presentation",
+  "year": 2019,
+  "date": "Mar. 2019",
+  "presentation": false,
+  "poster": true,
+  "summary": "",
+  "bibtex": "@misc{thornton2019postgrad,\n  title={Modelling and Analysis of Hand Motion in Everyday Activities},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={School of Engineering 7th Postgraduate Symposium, University of Warwick},\n  year={2019}\n}",
+  "image": "2019_symposium-optimized.webp",
+  "thumbnail": "2019_symposium-thumb.webp",
+  "imageAlt": "Hand motion illustration from the 2019 School of Engineering Postgraduate Symposium poster",
+  "previewTitle": "School of Engineering Postgraduate Symposium 2019 Poster",
+  "documents": [],
+  "order": 14
+}

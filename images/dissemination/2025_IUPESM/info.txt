@@ -1,0 +1,26 @@
+{
+  "id": "2025_IUPESM",
+  "title": "Utilising Optimisation Techniques for Accurate and Robust Markerless Motion Capture Reconstructions",
+  "authors": "Callum J. Thornton, Mitsunori Tada, Tsubasa Maruyama",
+  "venue": "IUPESM World Congress on Medical Physics and Biomedical Engineering, pp. 515–533",
+  "type": "conference",
+  "typeLabel": "Conference Paper",
+  "presentationLabel": "Oral Presentation",
+  "year": 2025,
+  "date": "Oct. 2025",
+  "presentation": true,
+  "poster": false,
+  "summary": "",
+  "bibtex": "@inproceedings{thornton2025utilising,\n  title={Utilising optimisation techniques for accurate and robust markerless motion capture reconstructions},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={IUPESM World Congress on Medical Physics and Biomedical Engineering},\n  pages={515--533},\n  year={2025},\n  publisher={Springer}\n}",
+  "image": "2025_IUPESM-optimized.webp",
+  "thumbnail": "2025_IUPESM-thumb.webp",
+  "imageAlt": "Figure from the 2025 IUPESM paper",
+  "previewTitle": "IUPESM 2025 Figure",
+  "documents": [
+    {
+      "label": "Paper",
+      "url": "https://doi.org/10.1007/978-3-032-20287-1_46"
+    }
+  ],
+  "order": 5
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2025_SMC",
+  "title": "Generating a Synthetic Dataset for Hand Pose Estimation Training",
+  "authors": "Callum J. Thornton, Mitsunori Tada, Tsubasa Maruyama",
+  "venue": "IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+  "type": "conference",
+  "typeLabel": "Conference Paper",
+  "presentationLabel": "Oral Presentation",
+  "year": 2025,
+  "date": "Oct. 2025",
+  "presentation": true,
+  "poster": false,
+  "summary": "Introduces a synthetic rendering pipeline for generating labeled 3D hand poses with occlusions, accelerating model generalization in unstructured environments.",
+  "bibtex": "@inproceedings{thornton2025synthetic,\n  title={Generating a Synthetic Dataset for Hand Pose Estimation Training},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={IEEE International Conference on Systems, Man, and Cybernetics (SMC)},\n  month={oct},\n  year={2025},\n  organization={IEEE}\n}",
+  "image": "2025_SMC-optimized.webp",
+  "thumbnail": "2025_SMC-thumb.webp",
+  "imageAlt": "Figure from the 2025 IEEE SMC paper",
+  "previewTitle": "IEEE SMC 2025 Figure",
+  "documents": [
+    {
+      "label": "Paper",
+      "url": "https://doi.org/10.1109/smc58881.2025.11343112"
+    }
+  ],
+  "order": 4
+}
