@@ -48,7 +48,7 @@ async function buildPhotoManifest() {
     const itemIds = new Set();
 
     for (const [category, categoryName] of Object.entries(categories)) {
-        const categoryPath = path.join(root, 'images', category);
+        const categoryPath = path.join(root, 'files', category);
         const entries = await readdir(categoryPath, { withFileTypes: true });
 
         for (const entry of entries) {
@@ -91,7 +91,7 @@ async function buildPhotoManifest() {
 }
 
 async function buildDisseminationManifest() {
-    const categoryPath = path.join(root, 'images', 'dissemination');
+    const categoryPath = path.join(root, 'files', 'dissemination');
     const entries = await readdir(categoryPath, { withFileTypes: true });
     const items = [];
     const itemIds = new Set();
@@ -174,7 +174,7 @@ try {
     await mkdir(outputDirectory, { recursive: true });
     await cp(path.join(root, 'index.html'), path.join(outputDirectory, 'index.html'));
 
-    for (const directory of ['files', 'images']) {
+    for (const directory of ['files']) {
         const source = path.join(root, directory);
         await cp(source, path.join(outputDirectory, directory), {
             recursive: true,

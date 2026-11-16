@@ -80,7 +80,7 @@ optimize_image() {
 }
 
 for category in "${categories[@]}"; do
-    folder="$root/images/$category"
+    folder="$root/files/$category"
     while IFS= read -r -d '' input; do
         if optimize_image "$input"; then
             ((optimized_count += 1))
