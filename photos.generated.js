@@ -339,7 +339,7 @@ window.DISSEMINATION_DATA = [
     "order": 1
   },
   {
-    "id": "2026_wearable-sleep",
+    "id": "2026_APCMBE_3",
     "title": "Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over",
     "authors": "Cecilia A. Callejas Pastor, Callum J. Thornton, Chien ND, Thomas Svensson, Akiko Kishi Svensson",
     "venue": "APCMBE",
@@ -352,10 +352,10 @@ window.DISSEMINATION_DATA = [
     "poster": true,
     "summary": "",
     "bibtex": "@misc{callejas2026wearable,\n  title={Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over},\n  author={Callejas Pastor, Cecilia A. and Thornton, Callum John and Chien, ND and Svensson, Thomas and Kishi Svensson, Akiko},\n  howpublished={APCMBE 2026},\n  month={nov},\n  year={2026}\n}",
-    "image": "files/dissemination/2026_wearable-sleep/matrix-placeholder.webp",
-    "thumbnail": "files/dissemination/2026_wearable-sleep/matrix-placeholder.webp",
-    "imageAlt": "Poster unavailable",
-    "previewTitle": "Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over",
+    "image": "files/dissemination/2026_APCMBE_3/2026_APCMBE_3-optimized.webp",
+    "thumbnail": "files/dissemination/2026_APCMBE_3/2026_APCMBE_3-thumb.webp",
+    "imageAlt": "Regular and irregular sleeper schedules illustrating sleep regularity scores",
+    "previewTitle": "APCMBE 2026 Poster Figure",
     "documents": [],
     "order": 2
   },
