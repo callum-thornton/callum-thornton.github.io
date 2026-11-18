@@ -16,6 +16,11 @@
   "thumbnail": "2024_symposium-thumb.webp",
   "imageAlt": "AIST DHRT 2024 poster about pose estimator training with synthetic data",
   "previewTitle": "AIST DHRT Symposium 2024 Poster",
-  "documents": [],
+  "documents": [
+    {
+      "label": "Poster",
+      "url": "2024_symposium.pdf"
+    }
+  ],
   "order": 13
 }
