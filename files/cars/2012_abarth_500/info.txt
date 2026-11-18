@@ -1,0 +1,16 @@
+{
+  "id": "abarth-500-2012",
+  "title": "2012 Abarth 500",
+  "category": "Cars",
+  "status": "",
+  "car": "Abarth 500",
+  "year": "2012",
+  "location": "England",
+  "dateBought": "-",
+  "summary": "",
+  "specs": {
+    "exterior": "White",
+    "ownership": "~"
+  },
+  "thumbnail": "1_Last.webp"
+}

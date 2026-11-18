@@ -7,6 +7,15 @@ sizes=(2048 1280 800)
 suffixes=('' '-medium' '-thumb')
 optimized_count=0
 
+if command -v magick >/dev/null 2>&1; then
+    image_command=(magick)
+elif command -v convert >/dev/null 2>&1; then
+    image_command=(convert)
+else
+    printf 'ImageMagick is required (ImageMagick 7: magick; ImageMagick 6: convert). Install it and try again.\n' >&2
+    exit 127
+fi
+
 optimize_image() {
     local input="$1"
     local folder="${input%/*}"
@@ -32,7 +41,7 @@ optimize_image() {
     for index in "${!outputs[@]}"; do
         local temporary="${outputs[$index]}.${BASHPID}.tmp.webp"
         temporary_paths+=("$temporary")
-        if ! magick "$input" -auto-orient -resize "${sizes[$index]}x${sizes[$index]}>" -strip -quality 82 "$temporary"; then
+        if ! "${image_command[@]}" "$input" -auto-orient -resize "${sizes[$index]}x${sizes[$index]}>" -strip -quality 82 "$temporary"; then
             for temporary in "${temporary_paths[@]}"; do
                 rm -f -- "$temporary"
             done
@@ -87,7 +96,7 @@ for category in "${categories[@]}"; do
         else
             result=$?
             if [[ "$result" -ne 2 ]]; then
-                printf 'Failed to optimize %s; JPEG retained.\n' "${input#"$root"/}" >&2
+                printf 'Failed to optimize %s; source retained.\n' "${input#"$root"/}" >&2
                 exit 1
             fi
         fi

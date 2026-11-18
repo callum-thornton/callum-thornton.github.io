@@ -1,0 +1,16 @@
+{
+  "id": "mini-ritz-1985",
+  "title": "1985 Mini Ritz",
+  "category": "Cars",
+  "status": "",
+  "car": "Mini Ritz",
+  "year": "1985",
+  "location": "England",
+  "dateBought": "-",
+  "summary": "",
+  "specs": {
+    "exterior": "",
+    "ownership": "~"
+  },
+  "thumbnail": "1_Current.webp"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "audi-tt-2002",
+  "title": "2002 Audi TT Quattro",
+  "category": "Cars",
+  "status": "",
+  "car": "Audi TT Quattro",
+  "year": "2002",
+  "location": "England",
+  "dateBought": "-",
+  "summary": "",
+  "specs": {
+    "exterior": "Red",
+    "ownership": "~"
+  },
+  "thumbnail": "1_Front.webp"
+}
