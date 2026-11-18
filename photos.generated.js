@@ -584,7 +584,12 @@ window.DISSEMINATION_DATA = [
     "thumbnail": "files/dissemination/2024_symposium/2024_symposium-thumb.webp",
     "imageAlt": "AIST DHRT 2024 poster about pose estimator training with synthetic data",
     "previewTitle": "AIST DHRT Symposium 2024 Poster",
-    "documents": [],
+    "documents": [
+      {
+        "label": "Poster",
+        "url": "files/dissemination/2024_symposium/2024_symposium.pdf"
+      }
+    ],
     "order": 13
   },
   {
@@ -699,7 +704,12 @@ window.DISSEMINATION_DATA = [
     "thumbnail": "files/dissemination/2019_symposium/2019_symposium-thumb.webp",
     "imageAlt": "Hand motion illustration from the 2019 School of Engineering Postgraduate Symposium poster",
     "previewTitle": "School of Engineering Postgraduate Symposium 2019 Poster",
-    "documents": [],
+    "documents": [
+      {
+        "label": "Poster",
+        "url": "files/dissemination/2019_symposium/2019_symposium.pdf"
+      }
+    ],
     "order": 14
   },
   {
