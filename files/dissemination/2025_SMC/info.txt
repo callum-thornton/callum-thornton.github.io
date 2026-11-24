@@ -10,7 +10,7 @@
   "date": "Oct. 2025",
   "presentation": true,
   "poster": false,
-  "summary": "Introduces a synthetic rendering pipeline for generating labeled 3D hand poses with occlusions, accelerating model generalization in unstructured environments.",
+  "summary": "Introduces a synthetic rendering pipeline for generating labelled 3D hand poses with occlusions, accelerating model generalisation in unstructured environments.",
   "bibtex": "@inproceedings{thornton2025synthetic,\n  title={Generating a Synthetic Dataset for Hand Pose Estimation Training},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={IEEE International Conference on Systems, Man, and Cybernetics (SMC)},\n  month={oct},\n  year={2025},\n  organization={IEEE}\n}",
   "image": "2025_SMC-optimized.webp",
   "thumbnail": "2025_SMC-thumb.webp",
