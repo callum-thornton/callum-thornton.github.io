@@ -10,7 +10,7 @@
   "date": "Oct. 2024",
   "presentation": false,
   "poster": false,
-  "summary": "Pilot study applying convolutional neural network (CNN) architectures to classify and quantify finger grasps performed during everyday activities.",
+  "summary": "Pilot study applying convolutional neural network architectures to classify and quantify finger grasps performed during everyday activities.",
   "bibtex": "@article{trejo2024quantification,\n  title={Quantification of finger grasps during activities of daily life using convolutional neural networks: A pilot study},\n  author={Trejo Ram{\\'\\i}rez, Mario Alberto and Thornton, Callum John and Evans, Neil D and Chappell, Michael J},\n  journal={Healthcare Technology Letters},\n  volume={11},\n  number={5},\n  pages={259--270},\n  year={2024},\n  doi={10.1049/htl2.12080}\n}",
   "image": "2024_HTL-optimized.webp",
   "thumbnail": "2024_HTL-thumb.webp",
