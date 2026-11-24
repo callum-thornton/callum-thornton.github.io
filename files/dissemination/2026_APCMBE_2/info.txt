@@ -10,7 +10,7 @@
   "date": "Nov. 2026",
   "presentation": false,
   "poster": true,
-  "summary": "",
+  "summary": "Assesses noise tolerance limits for single-lead wearable electrocardiogram heart-rate tracking, evaluating mean absolute heart-rate variability error across noise frequencies and signal-to-noise ratio levels.",
   "bibtex": "@misc{thornton2026evaluating,\n  title={Evaluating Noise Tolerance Limits for Single-Lead Wearable ECG Heart Rate Tracking},\n  author={Thornton, Callum John and Callejas Pastor, Cecilia A. and Chien, ND and Svensson, Thomas and Kishi Svensson, Akiko},\n  howpublished={APCMBE 2026},\n  month={nov},\n  year={2026}\n}",
   "image": "2026_APCMBE_2-optimized.webp",
   "thumbnail": "2026_APCMBE_2-thumb.webp",
