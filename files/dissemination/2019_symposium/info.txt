@@ -10,7 +10,7 @@
   "date": "Mar. 2019",
   "presentation": false,
   "poster": true,
-  "summary": "",
+  "summary": "Early doctoral poster exploring the modelling and analysis of hand motion during everyday activities.",
   "bibtex": "@misc{thornton2019postgrad,\n  title={Modelling and Analysis of Hand Motion in Everyday Activities},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={School of Engineering 7th Postgraduate Symposium, University of Warwick},\n  year={2019}\n}",
   "image": "2019_symposium-optimized.webp",
   "thumbnail": "2019_symposium-thumb.webp",
