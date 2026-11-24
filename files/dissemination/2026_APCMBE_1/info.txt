@@ -10,7 +10,7 @@
   "date": "Nov. 2026",
   "presentation": false,
   "poster": true,
-  "summary": "",
+  "summary": "Solo-authored feasibility study examining contemporary hand use, including how people use their hands to interact with modern technology.",
   "bibtex": "@misc{thornton2026updating,\n  title={Updating Our Understanding of How We Use Our Hands for the Modern Day: A Feasibility Study},\n  author={Thornton, Callum John},\n  howpublished={APCMBE 2026},\n  month={nov},\n  year={2026}\n}",
   "image": "2026_APCMBE_1-optimized.webp",
   "thumbnail": "2026_APCMBE_1-thumb.webp",
