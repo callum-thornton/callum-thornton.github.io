@@ -10,7 +10,7 @@
   "date": "Jun. 2022",
   "presentation": false,
   "poster": false,
-  "summary": "",
+  "summary": "Evaluates the validation and potential clinical applications of the Leap Motion Controller for tracking hand movement.",
   "bibtex": "@misc{thornton2022validation,\n  title={Validation and Clinical Applications of the Leap Motion Controller},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={IUPESM World Congress on Medical Physics and Biomedical Engineering},\n  month={jun},\n  year={2022}\n}",
   "image": "2022_IUPESM-optimized.webp",
   "thumbnail": "2022_IUPESM-thumb.webp",
