@@ -10,7 +10,7 @@
   "date": "2022",
   "presentation": true,
   "poster": false,
-  "summary": "",
+  "summary": "Investigates methods for predicting hand muscle excitations directly from recorded kinematic movement data.",
   "bibtex": "@inproceedings{thornton2022predicting,\n  title={Predicting Muscle Excitations of the Hand from Kinematic Data},\n  author={Thornton, Callum John and Chappell, Michael J and Evans, Neil D and Hardwicke, Joseph},\n  booktitle={2022 IEEE 5th International Conference on Industrial Cyber-Physical Systems (ICPS)},\n  year={2022},\n  organization={IEEE}\n}",
   "image": "2022_ICPS-optimized.webp",
   "thumbnail": "2022_ICPS-thumb.webp",
