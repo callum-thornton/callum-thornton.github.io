@@ -10,7 +10,7 @@
   "date": "Jan. 2023",
   "presentation": false,
   "poster": false,
-  "summary": "",
+  "summary": "Doctoral dissertation examining the mathematical modelling and analysis of everyday hand motion to support prosthetic hand technology.",
   "bibtex": "@phdthesis{thornton2023modelling,\n  title={Modelling and analysis of hand motion in everyday activities with application to prosthetic hand technology},\n  author={Thornton, Callum John},\n  year={2023},\n  school={University of Warwick}\n}",
   "image": "2023_thesis-optimized.webp",
   "thumbnail": "2023_thesis-thumb.webp",
