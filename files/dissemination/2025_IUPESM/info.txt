@@ -10,7 +10,7 @@
   "date": "Oct. 2025",
   "presentation": true,
   "poster": false,
-  "summary": "",
+  "summary": "Explores the use of optimisation techniques to achieve accurate and robust 3D reconstructions in markerless motion capture.",
   "bibtex": "@inproceedings{thornton2025utilising,\n  title={Utilising optimisation techniques for accurate and robust markerless motion capture reconstructions},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={IUPESM World Congress on Medical Physics and Biomedical Engineering},\n  pages={515--533},\n  year={2025},\n  publisher={Springer}\n}",
   "image": "2025_IUPESM-optimized.webp",
   "thumbnail": "2025_IUPESM-thumb.webp",
