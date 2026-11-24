@@ -10,7 +10,7 @@
   "date": "Jan. 2024",
   "presentation": false,
   "poster": false,
-  "summary": "",
+  "summary": "Details a portable, markerless hand motion capture system developed to identify the grasps performed during activities of daily living.",
   "bibtex": "@article{thornton2024portable,\n  title={Portable markerless hand motion capture system for determining the grasps performed in activities of daily living},\n  author={Thornton, Callum John and Chappell, Michael J and Evans, Neil D and Hardwicke, Joseph},\n  journal={Computer Methods in Biomechanics and Biomedical Engineering: Imaging \\& Visualization},\n  volume={12},\n  number={1},\n  year={2024},\n  publisher={Taylor \\& Francis}\n}",
   "image": "2024_com-met-optimized.webp",
   "thumbnail": "2024_com-met-thumb.webp",
