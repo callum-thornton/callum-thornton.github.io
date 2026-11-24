@@ -10,7 +10,7 @@
   "date": "Dec. 2024",
   "presentation": false,
   "poster": true,
-  "summary": "",
+  "summary": "Outlines methods for training pose estimation models using synthetically generated datasets.",
   "bibtex": "@misc{thornton2024dhrt,\n  title={Pose Estimator Training with Synthetic Data},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  howpublished={AIST DHRT Symposium},\n  year={2024}\n}",
   "image": "2024_symposium-optimized.webp",
   "thumbnail": "2024_symposium-thumb.webp",
