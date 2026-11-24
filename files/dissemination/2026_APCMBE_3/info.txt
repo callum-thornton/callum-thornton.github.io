@@ -10,7 +10,7 @@
   "date": "Nov. 2026",
   "presentation": false,
   "poster": true,
-  "summary": "",
+  "summary": "Investigates whether wearable-derived sleep regularity scores can predict muscle strength decline over a two-year period in adults aged 80 and older.",
   "bibtex": "@misc{callejas2026wearable,\n  title={Wearable-Based Sleep Regularity as a Predictor of Two-Year Muscle Strength Decline in Adults Aged 80 and Over},\n  author={Callejas Pastor, Cecilia A. and Thornton, Callum John and Chien, ND and Svensson, Thomas and Kishi Svensson, Akiko},\n  howpublished={APCMBE 2026},\n  month={nov},\n  year={2026}\n}",
   "image": "2026_APCMBE_3-optimized.webp",
   "thumbnail": "2026_APCMBE_3-thumb.webp",
