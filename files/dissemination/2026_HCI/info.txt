@@ -10,7 +10,7 @@
   "date": "Jul. 2026",
   "presentation": false,
   "poster": true,
-  "summary": "Investigates camera layout optimization inside heavy equipment cabins to minimize occlusions and improve pose tracking during complex operational tasks.",
+  "summary": "Investigates camera layout optimisation inside heavy equipment cabins to minimise occlusions and improve pose tracking during complex operational tasks.",
   "bibtex": "@inproceedings{thornton2026preliminary,\n  title={A Preliminary Study of the Optimal Camera Locations for Markerless Motion Capture in Construction Machinery Cabins},\n  author={Thornton, Callum John and Tada, Mitsunori and Maruyama, Tsubasa},\n  booktitle={International Conference on Human-Computer Interaction (HCII)},\n  pages={636--647},\n  month={jul},\n  year={2026},\n  publisher={Springer}\n}",
   "image": "2026_HCI-optimized.webp",
   "thumbnail": "2026_HCI-thumb.webp",
