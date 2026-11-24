@@ -10,7 +10,7 @@
   "date": "Jan. 2021",
   "presentation": false,
   "poster": false,
-  "summary": "",
+  "summary": "Conference presentation on modelling and analysing everyday hand motion for upper-limb prosthetic applications.",
   "bibtex": "@misc{thornton2021modelling,\n  title={Modelling and Analysis of Hand Motion in Everyday Activities with Application to Prosthetic Hand Technology},\n  author={Thornton, Callum John and Chappell, Michael J. and Evans, Neil D. and Hardwicke, Joseph},\n  howpublished={BioMedEng21},\n  month={jan},\n  year={2021}\n}",
   "image": "2021_biomedeng-optimized.webp",
   "thumbnail": "2021_biomedeng-thumb.webp",
